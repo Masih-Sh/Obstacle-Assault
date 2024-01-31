@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-Obstacle.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\UnrealEngine\Obstacle-Assault\Obstacle\Intermediate\Build\Win64\x64\ObstacleEditor\Development\Engine\SharedPCH.Engine.Cpp20.InclOrderUnreal5_0.h.obj"
+"C:\UnrealEngine\Obstacle-Assault\Obstacle\Intermediate\Build\Win64\x64\UnrealEditor\Development\Obstacle\MovingPlatform.gen.cpp.obj"
+"C:\UnrealEngine\Obstacle-Assault\Obstacle\Intermediate\Build\Win64\x64\UnrealEditor\Development\Obstacle\Obstacle.init.gen.cpp.obj"
+"C:\UnrealEngine\Obstacle-Assault\Obstacle\Intermediate\Build\Win64\x64\UnrealEditor\Development\Obstacle\MovingPlatform.cpp.obj"
+"C:\UnrealEngine\Obstacle-Assault\Obstacle\Intermediate\Build\Win64\x64\UnrealEditor\Development\Obstacle\Obstacle.cpp.obj"
+"C:\UnrealEngine\Obstacle-Assault\Obstacle\Intermediate\Build\Win64\x64\UnrealEditor\Development\Obstacle\Default.rc2.res"
+/OUT:"C:\UnrealEngine\Obstacle-Assault\Obstacle\Intermediate\Build\Win64\x64\UnrealEditor\Development\Obstacle\UnrealEditor-Obstacle.lib"

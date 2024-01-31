@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Obstacle.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Obstacle.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\ObstacleEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.editorconfig" />
+    <None Include="..\..\.vsconfig" />
+    <None Include="..\..\Link to Source Assets.txt" />
+    <None Include="..\..\SCK_Casual01.png" />
+    <None Include="..\..\shadertoolsconfig.json" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Config\HoloLens">
+      <UniqueIdentifier>{4C8DD267-CDE7-336F-8602-F5F485D22BAB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\HoloLens\HoloLensEngine.ini">
+      <Filter>Config\HoloLens</Filter>
+    </None>
+    <Filter Include="Source\Obstacle">
+      <UniqueIdentifier>{0720BFD1-E890-3519-B8AF-1BB94C7002AC}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Obstacle\MovingObstacle.cpp">
+      <Filter>Source\Obstacle</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Obstacle\MovingObstacle.h">
+      <Filter>Source\Obstacle</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Obstacle\MovingPlatform.cpp">
+      <Filter>Source\Obstacle</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Obstacle\MovingPlatform.h">
+      <Filter>Source\Obstacle</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\Obstacle\Obstacle.Build.cs">
+      <Filter>Source\Obstacle</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Obstacle\Obstacle.cpp">
+      <Filter>Source\Obstacle</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Obstacle\Obstacle.h">
+      <Filter>Source\Obstacle</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

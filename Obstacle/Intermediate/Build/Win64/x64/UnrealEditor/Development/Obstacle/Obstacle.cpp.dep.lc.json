@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\unrealengine\\obstacle-assault\\obstacle\\source\\obstacle\\obstacle.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\unrealengine\\obstacle-assault\\obstacle\\intermediate\\build\\win64\\x64\\obstacleeditor\\development\\engine\\sharedpch.engine.cpp20.inclorderunreal5_0.h.pch",
+        "Includes": [
+            "c:\\unrealengine\\obstacle-assault\\obstacle\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\obstacle\\definitions.obstacle.h",
+            "c:\\unrealengine\\obstacle-assault\\obstacle\\source\\obstacle\\obstacle.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
