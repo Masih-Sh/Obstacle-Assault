@@ -7,10 +7,8 @@
 /IGNORE:4221
 /NODEFAULTLIB
 "C:\UnrealEngine\Obstacle-Assault\Obstacle\Intermediate\Build\Win64\x64\ObstacleEditor\DebugGame\Engine\SharedPCH.Engine.NonOptimized.Cpp20.InclOrderUnreal5_0.h.obj"
-"C:\UnrealEngine\Obstacle-Assault\Obstacle\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\Obstacle\MovingObstacle.gen.cpp.obj"
 "C:\UnrealEngine\Obstacle-Assault\Obstacle\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\Obstacle\MovingPlatform.gen.cpp.obj"
 "C:\UnrealEngine\Obstacle-Assault\Obstacle\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\Obstacle\Obstacle.init.gen.cpp.obj"
-"C:\UnrealEngine\Obstacle-Assault\Obstacle\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\Obstacle\MovingObstacle.cpp.obj"
 "C:\UnrealEngine\Obstacle-Assault\Obstacle\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\Obstacle\Obstacle.cpp.obj"
 "C:\UnrealEngine\Obstacle-Assault\Obstacle\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\Obstacle\MovingPlatform.cpp.obj"
 "C:\UnrealEngine\Obstacle-Assault\Obstacle\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\Obstacle\Default.rc2.res"
