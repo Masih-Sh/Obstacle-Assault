@@ -4123,3 +4123,2539 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.02.03-12.48.28:911][557]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
 [2024.02.03-12.48.28:986][559]LogPlayLevel: Display: Destroying online subsystem :Context_59
 [2024.02.03-12.48.36:612][992]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2024.02.03-13.00.33:647][312]LogLiveCoding: Display: Starting Live Coding compile.
+[2024.02.03-13.00.59:681][867]Display: Reload/Re-instancing Complete: No object changes detected
+[2024.02.03-13.00.59:681][867]LogLiveCoding: Error: Live coding failed, please see Live console for more information
+[2024.02.03-13.02.26:671][820]LogLiveCoding: Display: Starting Live Coding compile.
+[2024.02.03-13.03.07:011][239]LogLiveCoding: Display:    Creating library C:\UnrealEngine\Obstacle-Assault\Obstacle\Binaries\Win64\UnrealEditor-Obstacle.patch_5.lib and object C:\UnrealEngine\Obstacle-Assault\Obstacle\Binaries\Win64\UnrealEditor-Obstacle.patch_5.exp
+[2024.02.03-13.03.07:113][241]LogClass: UPackage /Script/Obstacle Reload.
+[2024.02.03-13.03.07:113][241]LogClass: UClass MovingPlatform Reload.
+[2024.02.03-13.03.07:114][241]LogClass: Could not find existing class MovingPlatform in package /Script/Obstacle for reload, assuming new or modified class
+[2024.02.03-13.03.07:123][241]Re-instancing MovingPlatform after reload.
+[2024.02.03-13.03.07:258][241]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2024.02.03-13.03.07:583][242]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed
+[2024.02.03-13.03.07:584][242]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2024.02.03-13.07.24:808][648]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.03-13.07.24:813][648]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.03-13.07.24:813][648]PIE: New page: PIE session: main (3 Feb 2024, 13:07:24)
+[2024.02.03-13.07.24:814][648]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_main
+[2024.02.03-13.07.24:834][648]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020190s)
+[2024.02.03-13.07.24:834][648]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/main.main to /Game/UEDPIE_0_main.main (0.020235s)
+[2024.02.03-13.07.24:883][648]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2024.02.03-13.07.24:884][648]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.03-13.07.24:885][648]LogChaos: FPhysicsSolverBase::AsyncDt:0.016667
+[2024.02.03-13.07.24:886][648]LogAIModule: Creating AISystem for world main
+[2024.02.03-13.07.24:886][648]LogPlayLevel: PIE: World Init took: (0.001032s)
+[2024.02.03-13.07.24:886][648]LogAudio: Display: Creating Audio Device:                 Id: 44, Scope: Unique, Realtime: True
+[2024.02.03-13.07.24:886][648]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.03-13.07.24:886][648]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.03-13.07.24:886][648]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.03-13.07.24:886][648]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.03-13.07.24:886][648]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.03-13.07.24:886][648]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.03-13.07.24:886][648]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.03-13.07.24:886][648]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.03-13.07.24:886][648]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.03-13.07.24:886][648]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.03-13.07.24:886][648]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.03-13.07.24:888][648]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.03-13.07.24:910][648]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2024.02.03-13.07.24:911][648]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.03-13.07.24:911][648]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.03-13.07.24:911][648]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.03-13.07.24:911][648]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=44
+[2024.02.03-13.07.24:911][648]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=44
+[2024.02.03-13.07.24:913][648]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=44
+[2024.02.03-13.07.24:913][648]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=44
+[2024.02.03-13.07.24:913][648]LogInit: FAudioDevice initialized with ID 44.
+[2024.02.03-13.07.24:913][648]LogAudio: Display: Audio Device (ID: 44) registered with world 'main'.
+[2024.02.03-13.07.24:913][648]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 44
+[2024.02.03-13.07.24:917][648]LogLoad: Game class is 'PB_ObstacleAssaultGameMode_C'
+[2024.02.03-13.07.24:927][648]LogWorld: Bringing World /Game/UEDPIE_0_main.main up for play (max tick rate 60) at 2024.02.03-13.07.24
+[2024.02.03-13.07.26:057][648]LogWorld: Bringing up level for play took: 1.140595
+[2024.02.03-13.07.26:059][648]LogOnline: OSS: Created online subsystem instance for: :Context_60
+[2024.02.03-13.07.26:061][648]PIE: Server logged in
+[2024.02.03-13.07.26:061][648]PIE: Play in editor total start time 1.249 seconds.
+[2024.02.03-13.07.26:427][662]LogTemp: Display: BP_PushingPlatform_C_3 Platform over shoot by : 9.075562
+[2024.02.03-13.07.26:476][665]LogTemp: Display: BP_PushingPlatform_C_5 Platform over shoot by : 9.076172
+[2024.02.03-13.07.27:192][708]LogTemp: Display: BP_PushingPlatform_C_3 Platform over shoot by : 0.011963
+[2024.02.03-13.07.27:193][708]LogTemp: Display: BP_PushingPlatform_C_6 Platform over shoot by : 9.087646
+[2024.02.03-13.07.27:293][714]LogTemp: Display: BP_PushingPlatform_C_5 Platform over shoot by : 0.015625
+[2024.02.03-13.07.27:943][753]LogTemp: Display: BP_PushingPlatform_C_3 Platform over shoot by : 0.015625
+[2024.02.03-13.07.28:093][762]LogTemp: Display: BP_PushingPlatform_C_5 Platform over shoot by : 0.012817
+[2024.02.03-13.07.28:193][768]LogTemp: Display: BP_MovingPlatform_C_2 Platform over shoot by : 0.910522
+[2024.02.03-13.07.28:193][768]LogTemp: Display: BP_MovingPlatform_C_0 Platform over shoot by : 0.910522
+[2024.02.03-13.07.28:693][798]LogTemp: Display: BP_PushingPlatform_C_3 Platform over shoot by : 0.020142
+[2024.02.03-13.07.28:693][798]LogTemp: Display: BP_PushingPlatform_C_6 Platform over shoot by : 0.035889
+[2024.02.03-13.07.28:893][810]LogTemp: Display: BP_PushingPlatform_C_5 Platform over shoot by : 0.020386
+[2024.02.03-13.07.29:444][843]LogTemp: Display: BP_PushingPlatform_C_3 Platform over shoot by : 0.029785
+[2024.02.03-13.07.29:693][858]LogTemp: Display: BP_PushingPlatform_C_5 Platform over shoot by : 0.030151
+[2024.02.03-13.07.30:193][888]LogTemp: Display: BP_PushingPlatform_C_3 Platform over shoot by : 0.057373
+[2024.02.03-13.07.30:193][888]LogTemp: Display: BP_PushingPlatform_C_6 Platform over shoot by : 0.087158
+[2024.02.03-13.07.30:493][906]LogTemp: Display: BP_PushingPlatform_C_5 Platform over shoot by : 0.106567
+[2024.02.03-13.07.30:693][918]LogTemp: Display: BP_MovingPlatform_C_2 Platform over shoot by : 0.016479
+[2024.02.03-13.07.30:693][918]LogTemp: Display: BP_MovingPlatform_C_0 Platform over shoot by : 0.016479
+[2024.02.03-13.07.30:943][933]LogTemp: Display: BP_PushingPlatform_C_3 Platform over shoot by : 0.064209
+[2024.02.03-13.07.31:293][954]LogTemp: Display: BP_PushingPlatform_C_5 Platform over shoot by : 0.019653
+[2024.02.03-13.07.31:693][978]LogTemp: Display: BP_PushingPlatform_C_3 Platform over shoot by : 0.116943
+[2024.02.03-13.07.31:693][978]LogTemp: Display: BP_PushingPlatform_C_6 Platform over shoot by : 0.181152
+[2024.02.03-13.07.32:093][  2]LogTemp: Display: BP_PushingPlatform_C_5 Platform over shoot by : 0.112183
+[2024.02.03-13.07.32:443][ 23]LogTemp: Display: BP_PushingPlatform_C_3 Platform over shoot by : 0.009766
+[2024.02.03-13.07.32:893][ 50]LogTemp: Display: BP_PushingPlatform_C_5 Platform over shoot by : 0.029785
+[2024.02.03-13.07.33:193][ 68]LogTemp: Display: BP_MovingPlatform_C_2 Platform over shoot by : 0.021149
+[2024.02.03-13.07.33:193][ 68]LogTemp: Display: BP_MovingPlatform_C_0 Platform over shoot by : 0.021149
+[2024.02.03-13.07.33:193][ 68]LogTemp: Display: BP_PushingPlatform_C_3 Platform over shoot by : 0.079956
+[2024.02.03-13.07.33:193][ 68]LogTemp: Display: BP_PushingPlatform_C_6 Platform over shoot by : 0.089844
+[2024.02.03-13.07.33:693][ 98]LogTemp: Display: BP_PushingPlatform_C_5 Platform over shoot by : 0.499634
+[2024.02.03-13.07.33:943][113]LogTemp: Display: BP_PushingPlatform_C_3 Platform over shoot by : 0.533203
+[2024.02.03-13.07.34:494][146]LogTemp: Display: BP_PushingPlatform_C_5 Platform over shoot by : 0.175171
+[2024.02.03-13.07.34:694][158]LogTemp: Display: BP_PushingPlatform_C_3 Platform over shoot by : 0.086548
+[2024.02.03-13.07.34:694][158]LogTemp: Display: BP_PushingPlatform_C_6 Platform over shoot by : 0.619873
+[2024.02.03-13.07.35:293][194]LogTemp: Display: BP_PushingPlatform_C_5 Platform over shoot by : 0.099976
+[2024.02.03-13.07.35:443][203]LogTemp: Display: BP_PushingPlatform_C_3 Platform over shoot by : 0.097778
+[2024.02.03-13.07.35:693][218]LogTemp: Display: BP_MovingPlatform_C_2 Platform over shoot by : 0.072174
+[2024.02.03-13.07.35:694][218]LogTemp: Display: BP_MovingPlatform_C_0 Platform over shoot by : 0.072174
+[2024.02.03-13.07.36:094][242]LogTemp: Display: BP_PushingPlatform_C_5 Platform over shoot by : 0.010376
+[2024.02.03-13.07.36:194][248]LogTemp: Display: BP_PushingPlatform_C_3 Platform over shoot by : 0.012817
+[2024.02.03-13.07.36:194][248]LogTemp: Display: BP_PushingPlatform_C_6 Platform over shoot by : 0.110596
+[2024.02.03-13.07.36:894][290]LogTemp: Display: BP_PushingPlatform_C_5 Platform over shoot by : 0.295776
+[2024.02.03-13.07.36:943][293]LogTemp: Display: BP_PushingPlatform_C_3 Platform over shoot by : 0.292847
+[2024.02.03-13.07.37:694][338]LogTemp: Display: BP_PushingPlatform_C_5 Platform over shoot by : 0.009155
+[2024.02.03-13.07.37:694][338]LogTemp: Display: BP_PushingPlatform_C_3 Platform over shoot by : 0.008789
+[2024.02.03-13.07.37:694][338]LogTemp: Display: BP_PushingPlatform_C_6 Platform over shoot by : 0.301514
+[2024.02.03-13.07.38:194][368]LogTemp: Display: BP_MovingPlatform_C_2 Platform over shoot by : 0.032379
+[2024.02.03-13.07.38:194][368]LogTemp: Display: BP_MovingPlatform_C_0 Platform over shoot by : 0.032379
+[2024.02.03-13.07.38:444][383]LogTemp: Display: BP_PushingPlatform_C_3 Platform over shoot by : 0.017578
+[2024.02.03-13.07.38:493][386]LogTemp: Display: BP_PushingPlatform_C_5 Platform over shoot by : 0.017944
+[2024.02.03-13.07.39:193][428]LogTemp: Display: BP_PushingPlatform_C_3 Platform over shoot by : 0.017212
+[2024.02.03-13.07.39:193][428]LogTemp: Display: BP_PushingPlatform_C_6 Platform over shoot by : 0.034912
+[2024.02.03-13.07.39:294][434]LogTemp: Display: BP_PushingPlatform_C_5 Platform over shoot by : 0.040405
+[2024.02.03-13.07.39:944][473]LogTemp: Display: BP_PushingPlatform_C_3 Platform over shoot by : 0.044189
+[2024.02.03-13.07.40:094][482]LogTemp: Display: BP_PushingPlatform_C_5 Platform over shoot by : 0.024658
+[2024.02.03-13.07.40:636][513]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.03-13.07.40:636][513]LogWorld: BeginTearingDown for /Game/UEDPIE_0_main
+[2024.02.03-13.07.40:637][513]LogWorld: UWorld::CleanupWorld for main, bSessionEnded=true, bCleanupResources=true
+[2024.02.03-13.07.40:638][513]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.03-13.07.40:642][513]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.03-13.07.40:647][513]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.03-13.07.40:659][513]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.03-13.07.40:667][513]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 44
+[2024.02.03-13.07.40:667][513]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=44
+[2024.02.03-13.07.40:669][513]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=44
+[2024.02.03-13.07.40:687][513]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2024.02.03-13.07.40:751][514]LogPlayLevel: Display: Destroying online subsystem :Context_60
+[2024.02.03-13.07.57:700][ 35]Cmd: clear
+[2024.02.03-13.08.01:596][268]Cmd: clear
+[2024.02.03-13.09.06:314][640]Cmd: clear .log
+[2024.02.03-13.09.11:618][954]Cmd: clear log.
+[2024.02.03-13.09.21:226][527]Cmd: -> clear .log
+[2024.02.03-13.10.18:186][231]Cmd: Clear log.
+[2024.02.03-13.10.59:079][260]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.03-13.10.59:083][260]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.03-13.10.59:083][260]PIE: New page: PIE session: main (3 Feb 2024, 13:10:59)
+[2024.02.03-13.10.59:106][260]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_main
+[2024.02.03-13.10.59:125][260]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018503s)
+[2024.02.03-13.10.59:125][260]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/main.main to /Game/UEDPIE_0_main.main (0.018554s)
+[2024.02.03-13.10.59:137][260]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2024.02.03-13.10.59:147][260]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.03-13.10.59:147][260]LogChaos: FPhysicsSolverBase::AsyncDt:0.016667
+[2024.02.03-13.10.59:149][260]LogAIModule: Creating AISystem for world main
+[2024.02.03-13.10.59:149][260]LogPlayLevel: PIE: World Init took: (0.001030s)
+[2024.02.03-13.10.59:149][260]LogAudio: Display: Creating Audio Device:                 Id: 45, Scope: Unique, Realtime: True
+[2024.02.03-13.10.59:149][260]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.03-13.10.59:149][260]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.03-13.10.59:149][260]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.03-13.10.59:149][260]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.03-13.10.59:149][260]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.03-13.10.59:149][260]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.03-13.10.59:149][260]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.03-13.10.59:149][260]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.03-13.10.59:150][260]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.03-13.10.59:150][260]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.03-13.10.59:150][260]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.03-13.10.59:152][260]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.03-13.10.59:174][260]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2024.02.03-13.10.59:174][260]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.03-13.10.59:174][260]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.03-13.10.59:174][260]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.03-13.10.59:174][260]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=45
+[2024.02.03-13.10.59:174][260]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=45
+[2024.02.03-13.10.59:176][260]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=45
+[2024.02.03-13.10.59:176][260]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=45
+[2024.02.03-13.10.59:177][260]LogInit: FAudioDevice initialized with ID 45.
+[2024.02.03-13.10.59:177][260]LogAudio: Display: Audio Device (ID: 45) registered with world 'main'.
+[2024.02.03-13.10.59:177][260]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 45
+[2024.02.03-13.10.59:179][260]LogLoad: Game class is 'PB_ObstacleAssaultGameMode_C'
+[2024.02.03-13.10.59:189][260]LogWorld: Bringing World /Game/UEDPIE_0_main.main up for play (max tick rate 60) at 2024.02.03-13.10.59
+[2024.02.03-13.11.00:309][260]LogWorld: Bringing up level for play took: 1.128955
+[2024.02.03-13.11.00:311][260]LogOnline: OSS: Created online subsystem instance for: :Context_61
+[2024.02.03-13.11.00:313][260]PIE: Server logged in
+[2024.02.03-13.11.00:314][260]PIE: Play in editor total start time 1.231 seconds.
+[2024.02.03-13.11.00:687][275]LogTemp: Display: BP_PushingPlatform_C_3 Platform over shoot by : 30.588989
+[2024.02.03-13.11.00:737][278]LogTemp: Display: BP_PushingPlatform_C_5 Platform over shoot by : 30.663574
+[2024.02.03-13.11.01:437][320]LogTemp: Display: BP_PushingPlatform_C_3 Platform over shoot by : 0.160645
+[2024.02.03-13.11.01:437][320]LogTemp: Display: BP_PushingPlatform_C_6 Platform over shoot by : 30.749512
+[2024.02.03-13.11.01:537][326]LogTemp: Display: BP_PushingPlatform_C_5 Platform over shoot by : 0.086792
+[2024.02.03-13.11.02:187][365]LogTemp: Display: BP_PushingPlatform_C_3 Platform over shoot by : 0.053223
+[2024.02.03-13.11.02:337][374]LogTemp: Display: BP_PushingPlatform_C_5 Platform over shoot by : 0.094849
+[2024.02.03-13.11.02:437][380]LogTemp: Display: BP_MovingPlatform_C_2 Platform over shoot by : 3.087494
+[2024.02.03-13.11.02:437][380]LogTemp: Display: BP_MovingPlatform_C_0 Platform over shoot by : 3.087494
+[2024.02.03-13.11.02:937][410]LogTemp: Display: BP_PushingPlatform_C_3 Platform over shoot by : 0.094604
+[2024.02.03-13.11.02:937][410]LogTemp: Display: BP_PushingPlatform_C_6 Platform over shoot by : 0.147705
+[2024.02.03-13.11.03:150][422]LogTemp: Display: BP_PushingPlatform_C_5 Platform over shoot by : 26.905029
+[2024.02.03-13.11.03:934][469]LogTemp: Display: BP_PushingPlatform_C_3 Platform over shoot by : 27.143799
+[2024.02.03-13.11.04:184][484]LogTemp: Display: BP_PushingPlatform_C_5 Platform over shoot by : 0.383789
+[2024.02.03-13.11.04:684][514]LogTemp: Display: BP_PushingPlatform_C_3 Platform over shoot by : 0.101807
+[2024.02.03-13.11.04:684][514]LogTemp: Display: BP_PushingPlatform_C_6 Platform over shoot by : 27.245605
+[2024.02.03-13.11.04:984][532]LogTemp: Display: BP_PushingPlatform_C_5 Platform over shoot by : 0.012451
+[2024.02.03-13.11.05:184][544]LogTemp: Display: BP_MovingPlatform_C_2 Platform over shoot by : 2.730530
+[2024.02.03-13.11.05:184][544]LogTemp: Display: BP_MovingPlatform_C_0 Platform over shoot by : 2.730530
+[2024.02.03-13.11.05:444][559]LogTemp: Display: BP_PushingPlatform_C_3 Platform over shoot by : 19.667236
+[2024.02.03-13.11.05:788][578]LogTemp: Display: BP_PushingPlatform_C_5 Platform over shoot by : 6.676636
+[2024.02.03-13.11.06:138][599]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.03-13.11.06:138][599]LogWorld: BeginTearingDown for /Game/UEDPIE_0_main
+[2024.02.03-13.11.06:138][599]LogWorld: UWorld::CleanupWorld for main, bSessionEnded=true, bCleanupResources=true
+[2024.02.03-13.11.06:139][599]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.03-13.11.06:142][599]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.03-13.11.06:146][599]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.03-13.11.06:156][599]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.03-13.11.06:157][599]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 45
+[2024.02.03-13.11.06:157][599]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=45
+[2024.02.03-13.11.06:159][599]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=45
+[2024.02.03-13.11.06:166][599]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2024.02.03-13.11.06:239][601]LogPlayLevel: Display: Destroying online subsystem :Context_61
+[2024.02.03-13.13.21:584][729]LogLiveCoding: Display: Starting Live Coding compile.
+[2024.02.03-13.13.50:239][834]LogLiveCoding: Display:    Creating library C:\UnrealEngine\Obstacle-Assault\Obstacle\Binaries\Win64\UnrealEditor-Obstacle.patch_6.lib and object C:\UnrealEngine\Obstacle-Assault\Obstacle\Binaries\Win64\UnrealEditor-Obstacle.patch_6.exp
+[2024.02.03-13.13.50:696][835]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2024.02.03-13.13.51:103][836]Display: Reload/Re-instancing Complete: 1 package changed, 1 class unchanged
+[2024.02.03-13.13.51:103][836]LogLiveCoding: Display: Live coding succeeded
+[2024.02.03-13.13.54:601][ 13]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.03-13.13.54:606][ 13]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.03-13.13.54:606][ 13]PIE: New page: PIE session: main (3 Feb 2024, 13:13:54)
+[2024.02.03-13.13.54:606][ 13]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_main
+[2024.02.03-13.13.54:626][ 13]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019173s)
+[2024.02.03-13.13.54:626][ 13]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/main.main to /Game/UEDPIE_0_main.main (0.019217s)
+[2024.02.03-13.13.54:673][ 13]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2024.02.03-13.13.54:678][ 13]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.03-13.13.54:678][ 13]LogChaos: FPhysicsSolverBase::AsyncDt:0.016667
+[2024.02.03-13.13.54:679][ 13]LogAIModule: Creating AISystem for world main
+[2024.02.03-13.13.54:679][ 13]LogPlayLevel: PIE: World Init took: (0.000930s)
+[2024.02.03-13.13.54:679][ 13]LogAudio: Display: Creating Audio Device:                 Id: 46, Scope: Unique, Realtime: True
+[2024.02.03-13.13.54:679][ 13]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.03-13.13.54:679][ 13]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.03-13.13.54:679][ 13]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.03-13.13.54:679][ 13]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.03-13.13.54:679][ 13]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.03-13.13.54:679][ 13]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.03-13.13.54:679][ 13]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.03-13.13.54:679][ 13]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.03-13.13.54:680][ 13]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.03-13.13.54:680][ 13]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.03-13.13.54:680][ 13]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.03-13.13.54:681][ 13]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.03-13.13.54:704][ 13]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2024.02.03-13.13.54:705][ 13]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.03-13.13.54:705][ 13]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.03-13.13.54:705][ 13]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.03-13.13.54:705][ 13]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=46
+[2024.02.03-13.13.54:705][ 13]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=46
+[2024.02.03-13.13.54:707][ 13]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=46
+[2024.02.03-13.13.54:707][ 13]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=46
+[2024.02.03-13.13.54:707][ 13]LogInit: FAudioDevice initialized with ID 46.
+[2024.02.03-13.13.54:707][ 13]LogAudio: Display: Audio Device (ID: 46) registered with world 'main'.
+[2024.02.03-13.13.54:707][ 13]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 46
+[2024.02.03-13.13.54:710][ 13]LogLoad: Game class is 'PB_ObstacleAssaultGameMode_C'
+[2024.02.03-13.13.54:719][ 13]LogWorld: Bringing World /Game/UEDPIE_0_main.main up for play (max tick rate 60) at 2024.02.03-13.13.54
+[2024.02.03-13.13.55:906][ 13]LogWorld: Bringing up level for play took: 1.195915
+[2024.02.03-13.13.55:908][ 13]LogOnline: OSS: Created online subsystem instance for: :Context_62
+[2024.02.03-13.13.55:910][ 13]PIE: Server logged in
+[2024.02.03-13.13.55:911][ 13]PIE: Play in editor total start time 1.305 seconds.
+[2024.02.03-13.13.55:912][ 13]LogTemp: Display: Rotating
+[2024.02.03-13.13.55:912][ 13]LogTemp: Display: Rotating
+[2024.02.03-13.13.55:912][ 13]LogTemp: Display: Rotating
+[2024.02.03-13.13.55:912][ 13]LogTemp: Display: Rotating
+[2024.02.03-13.13.55:912][ 13]LogTemp: Display: Rotating
+[2024.02.03-13.13.55:936][ 14]LogTemp: Display: Rotating
+[2024.02.03-13.13.55:936][ 14]LogTemp: Display: Rotating
+[2024.02.03-13.13.55:936][ 14]LogTemp: Display: Rotating
+[2024.02.03-13.13.55:936][ 14]LogTemp: Display: Rotating
+[2024.02.03-13.13.55:936][ 14]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:047][ 15]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:047][ 15]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:047][ 15]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:047][ 15]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:047][ 15]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:102][ 16]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:102][ 16]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:102][ 16]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:102][ 16]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:102][ 16]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:128][ 17]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:128][ 17]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:128][ 17]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:128][ 17]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:128][ 17]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:145][ 18]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:145][ 18]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:145][ 18]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:145][ 18]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:145][ 18]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:162][ 19]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:162][ 19]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:162][ 19]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:162][ 19]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:162][ 19]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:177][ 20]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:177][ 20]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:177][ 20]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:177][ 20]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:177][ 20]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:194][ 21]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:194][ 21]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:194][ 21]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:194][ 21]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:194][ 21]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:211][ 22]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:212][ 22]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:212][ 22]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:212][ 22]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:212][ 22]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:228][ 23]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:228][ 23]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:228][ 23]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:228][ 23]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:228][ 23]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:245][ 24]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:245][ 24]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:245][ 24]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:245][ 24]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:245][ 24]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:261][ 25]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:261][ 25]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:261][ 25]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:261][ 25]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:261][ 25]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:278][ 26]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:278][ 26]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:278][ 26]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:278][ 26]LogTemp: Display: BP_PushingPlatform_C_3 Platform over shoot by : 17.880249
+[2024.02.03-13.13.56:278][ 26]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:278][ 26]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:294][ 27]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:294][ 27]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:294][ 27]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:294][ 27]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:294][ 27]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:311][ 28]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:311][ 28]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:311][ 28]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:311][ 28]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:311][ 28]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:327][ 29]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:327][ 29]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:327][ 29]LogTemp: Display: BP_PushingPlatform_C_5 Platform over shoot by : 17.880371
+[2024.02.03-13.13.56:327][ 29]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:327][ 29]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:327][ 29]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:345][ 30]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:345][ 30]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:345][ 30]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:345][ 30]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:345][ 30]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:362][ 31]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:362][ 31]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:362][ 31]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:362][ 31]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:362][ 31]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:378][ 32]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:378][ 32]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:378][ 32]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:378][ 32]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:378][ 32]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:395][ 33]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:395][ 33]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:395][ 33]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:395][ 33]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:395][ 33]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:412][ 34]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:412][ 34]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:412][ 34]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:412][ 34]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:412][ 34]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:428][ 35]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:428][ 35]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:428][ 35]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:428][ 35]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:428][ 35]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:444][ 36]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:444][ 36]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:444][ 36]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:444][ 36]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:444][ 36]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:461][ 37]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:461][ 37]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:461][ 37]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:461][ 37]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:461][ 37]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:478][ 38]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:478][ 38]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:478][ 38]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:478][ 38]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:478][ 38]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:494][ 39]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:494][ 39]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:494][ 39]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:494][ 39]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:494][ 39]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:511][ 40]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:511][ 40]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:511][ 40]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:511][ 40]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:511][ 40]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:528][ 41]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:528][ 41]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:528][ 41]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:528][ 41]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:528][ 41]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:544][ 42]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:545][ 42]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:545][ 42]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:545][ 42]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:545][ 42]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:561][ 43]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:562][ 43]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:562][ 43]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:562][ 43]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:562][ 43]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:578][ 44]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:578][ 44]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:578][ 44]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:578][ 44]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:578][ 44]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:594][ 45]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:594][ 45]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:594][ 45]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:594][ 45]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:594][ 45]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:612][ 46]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:612][ 46]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:612][ 46]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:612][ 46]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:612][ 46]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:628][ 47]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:628][ 47]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:628][ 47]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:628][ 47]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:628][ 47]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:645][ 48]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:645][ 48]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:645][ 48]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:645][ 48]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:645][ 48]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:660][ 49]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:661][ 49]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:661][ 49]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:661][ 49]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:661][ 49]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:677][ 50]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:678][ 50]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:678][ 50]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:678][ 50]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:678][ 50]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:695][ 51]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:695][ 51]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:695][ 51]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:695][ 51]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:695][ 51]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:711][ 52]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:712][ 52]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:712][ 52]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:712][ 52]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:712][ 52]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:728][ 53]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:728][ 53]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:728][ 53]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:728][ 53]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:728][ 53]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:744][ 54]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:744][ 54]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:744][ 54]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:744][ 54]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:744][ 54]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:761][ 55]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:761][ 55]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:761][ 55]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:761][ 55]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:761][ 55]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:778][ 56]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:778][ 56]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:778][ 56]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:778][ 56]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:778][ 56]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:795][ 57]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:795][ 57]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:795][ 57]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:795][ 57]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:795][ 57]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:811][ 58]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:811][ 58]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:811][ 58]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:811][ 58]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:811][ 58]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:828][ 59]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:828][ 59]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:828][ 59]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:828][ 59]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:828][ 59]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:844][ 60]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:844][ 60]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:844][ 60]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:844][ 60]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:844][ 60]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:861][ 61]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:861][ 61]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:861][ 61]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:861][ 61]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:861][ 61]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:877][ 62]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:878][ 62]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:878][ 62]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:878][ 62]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:878][ 62]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:895][ 63]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:895][ 63]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:895][ 63]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:895][ 63]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:895][ 63]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:911][ 64]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:911][ 64]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:911][ 64]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:911][ 64]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:911][ 64]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:928][ 65]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:928][ 65]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:928][ 65]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:928][ 65]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:928][ 65]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:944][ 66]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:944][ 66]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:944][ 66]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:944][ 66]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:944][ 66]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:961][ 67]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:961][ 67]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:961][ 67]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:961][ 67]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:961][ 67]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:978][ 68]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:978][ 68]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:978][ 68]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:978][ 68]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:978][ 68]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:994][ 69]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:994][ 69]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:994][ 69]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:994][ 69]LogTemp: Display: Rotating
+[2024.02.03-13.13.56:994][ 69]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:011][ 70]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:011][ 70]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:011][ 70]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:011][ 70]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:011][ 70]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:028][ 71]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:028][ 71]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:028][ 71]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:028][ 71]LogTemp: Display: BP_PushingPlatform_C_3 Platform over shoot by : 0.399170
+[2024.02.03-13.13.57:028][ 71]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:028][ 71]LogTemp: Display: BP_PushingPlatform_C_6 Platform over shoot by : 18.279297
+[2024.02.03-13.13.57:028][ 71]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:045][ 72]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:045][ 72]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:045][ 72]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:045][ 72]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:045][ 72]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:061][ 73]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:062][ 73]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:062][ 73]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:062][ 73]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:062][ 73]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:078][ 74]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:078][ 74]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:078][ 74]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:078][ 74]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:078][ 74]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:095][ 75]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:095][ 75]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:095][ 75]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:095][ 75]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:095][ 75]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:111][ 76]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:111][ 76]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:111][ 76]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:111][ 76]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:111][ 76]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:127][ 77]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:127][ 77]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:128][ 77]LogTemp: Display: BP_PushingPlatform_C_5 Platform over shoot by : 0.414795
+[2024.02.03-13.13.57:128][ 77]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:128][ 77]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:128][ 77]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:144][ 78]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:144][ 78]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:144][ 78]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:144][ 78]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:144][ 78]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:161][ 79]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:161][ 79]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:161][ 79]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:161][ 79]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:161][ 79]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:177][ 80]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:178][ 80]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:178][ 80]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:178][ 80]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:178][ 80]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:195][ 81]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:195][ 81]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:195][ 81]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:195][ 81]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:195][ 81]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:212][ 82]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:212][ 82]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:212][ 82]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:212][ 82]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:212][ 82]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:228][ 83]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:229][ 83]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:229][ 83]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:229][ 83]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:229][ 83]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:244][ 84]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:244][ 84]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:244][ 84]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:244][ 84]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:244][ 84]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:262][ 85]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:262][ 85]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:262][ 85]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:262][ 85]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:262][ 85]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:278][ 86]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:278][ 86]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:278][ 86]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:278][ 86]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:278][ 86]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:294][ 87]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:294][ 87]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:294][ 87]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:294][ 87]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:294][ 87]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:312][ 88]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:312][ 88]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:312][ 88]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:312][ 88]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:312][ 88]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:328][ 89]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:328][ 89]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:328][ 89]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:328][ 89]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:328][ 89]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:345][ 90]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:346][ 90]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:346][ 90]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:346][ 90]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:346][ 90]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:362][ 91]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:362][ 91]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:362][ 91]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:362][ 91]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:362][ 91]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:378][ 92]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:379][ 92]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:379][ 92]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:379][ 92]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:379][ 92]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:394][ 93]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:394][ 93]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:394][ 93]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:394][ 93]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:394][ 93]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:412][ 94]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:412][ 94]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:412][ 94]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:412][ 94]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:412][ 94]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:428][ 95]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:428][ 95]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:428][ 95]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:428][ 95]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:428][ 95]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:444][ 96]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:444][ 96]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:444][ 96]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:444][ 96]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:444][ 96]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:461][ 97]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:461][ 97]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:461][ 97]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:461][ 97]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:461][ 97]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:483][ 98]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:484][ 98]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:484][ 98]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:484][ 98]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:484][ 98]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:501][ 99]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:501][ 99]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:501][ 99]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:501][ 99]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:501][ 99]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:784][116]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:784][116]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:784][116]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:784][116]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:784][116]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:802][117]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:802][117]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:802][117]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:802][117]LogTemp: Display: Rotating
+[2024.02.03-13.13.57:802][117]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:316][118]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:316][118]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:316][118]LogTemp: Display: BP_PushingPlatform_C_5 Platform over shoot by : 12.426636
+[2024.02.03-13.13.58:316][118]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:316][118]LogTemp: Display: BP_PushingPlatform_C_3 Platform over shoot by : 312.442383
+[2024.02.03-13.13.58:316][118]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:316][118]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:333][119]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:333][119]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:333][119]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:333][119]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:333][119]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:349][120]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:349][120]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:349][120]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:349][120]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:349][120]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:367][121]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:367][121]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:367][121]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:367][121]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:367][121]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:383][122]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:383][122]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:383][122]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:383][122]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:383][122]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:400][123]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:400][123]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:400][123]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:400][123]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:400][123]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:416][124]LogTemp: Display: BP_MovingPlatform_C_2 Platform over shoot by : 3.107971
+[2024.02.03-13.13.58:416][124]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:416][124]LogTemp: Display: BP_MovingPlatform_C_0 Platform over shoot by : 3.107971
+[2024.02.03-13.13.58:416][124]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:416][124]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:416][124]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:416][124]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:433][125]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:433][125]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:433][125]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:433][125]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:433][125]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:450][126]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:450][126]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:450][126]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:450][126]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:450][126]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:466][127]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:466][127]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:466][127]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:466][127]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:466][127]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:483][128]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:483][128]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:483][128]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:483][128]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:483][128]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:501][129]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:502][129]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:502][129]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:502][129]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:502][129]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:517][130]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:517][130]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:517][130]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:517][130]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:517][130]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:533][131]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:533][131]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:533][131]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:533][131]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:533][131]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:550][132]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:550][132]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:550][132]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:550][132]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:550][132]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:566][133]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:566][133]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:566][133]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:566][133]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:566][133]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:583][134]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:583][134]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:583][134]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:583][134]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:583][134]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:600][135]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:600][135]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:600][135]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:600][135]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:600][135]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:617][136]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:617][136]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:617][136]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:617][136]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:617][136]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:633][137]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:633][137]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:633][137]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:633][137]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:633][137]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:650][138]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:650][138]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:650][138]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:650][138]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:650][138]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:667][139]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:667][139]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:667][139]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:667][139]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:667][139]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:683][140]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:683][140]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:683][140]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:683][140]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:683][140]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:699][141]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:699][141]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:700][141]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:700][141]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:700][141]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:717][142]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:717][142]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:717][142]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:717][142]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:717][142]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:733][143]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:733][143]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:733][143]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:733][143]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:733][143]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:750][144]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:750][144]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:750][144]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:750][144]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:750][144]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:767][145]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:767][145]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:767][145]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:767][145]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:767][145]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:783][146]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:783][146]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:783][146]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:783][146]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:783][146]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:799][147]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:799][147]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:799][147]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:799][147]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:799][147]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:817][148]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:817][148]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:817][148]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:817][148]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:817][148]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:833][149]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:834][149]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:834][149]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:834][149]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:834][149]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:850][150]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:850][150]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:850][150]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:850][150]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:850][150]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:866][151]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:867][151]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:867][151]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:867][151]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:867][151]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:883][152]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:883][152]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:883][152]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:883][152]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:883][152]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:900][153]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:900][153]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:900][153]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:900][153]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:900][153]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:916][154]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:916][154]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:916][154]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:916][154]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:916][154]LogTemp: Display: BP_PushingPlatform_C_6 Platform over shoot by : 13.044434
+[2024.02.03-13.13.58:916][154]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:933][155]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:933][155]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:933][155]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:933][155]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:933][155]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:950][156]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:950][156]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:950][156]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:950][156]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:950][156]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:967][157]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:967][157]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:967][157]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:967][157]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:967][157]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:984][158]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:984][158]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:984][158]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:984][158]LogTemp: Display: Rotating
+[2024.02.03-13.13.58:984][158]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:000][159]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:000][159]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:000][159]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:000][159]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:000][159]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:017][160]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:018][160]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:018][160]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:018][160]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:018][160]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:034][161]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:034][161]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:034][161]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:034][161]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:034][161]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:050][162]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:051][162]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:051][162]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:051][162]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:051][162]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:067][163]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:067][163]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:067][163]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:067][163]LogTemp: Display: BP_PushingPlatform_C_3 Platform over shoot by : 0.602783
+[2024.02.03-13.13.59:067][163]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:067][163]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:083][164]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:083][164]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:083][164]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:083][164]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:083][164]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:100][165]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:100][165]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:100][165]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:100][165]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:100][165]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:116][166]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:116][166]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:116][166]LogTemp: Display: BP_PushingPlatform_C_5 Platform over shoot by : 0.603149
+[2024.02.03-13.13.59:116][166]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:116][166]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:116][166]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:132][167]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:132][167]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:132][167]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:132][167]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:133][167]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:150][168]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:150][168]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:150][168]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:150][168]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:150][168]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:167][169]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:167][169]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:167][169]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:167][169]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:167][169]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:183][170]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:183][170]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:183][170]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:183][170]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:183][170]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:200][171]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:200][171]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:200][171]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:200][171]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:200][171]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:216][172]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:216][172]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:217][172]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:217][172]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:217][172]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:233][173]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:233][173]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:233][173]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:233][173]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:234][173]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:250][174]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:250][174]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:250][174]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:250][174]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:250][174]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:266][175]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:266][175]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:266][175]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:266][175]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:266][175]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:283][176]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:283][176]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:283][176]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:283][176]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:283][176]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:300][177]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:301][177]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:301][177]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:301][177]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:301][177]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:317][178]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:317][178]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:317][178]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:317][178]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:317][178]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:334][179]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:334][179]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:334][179]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:334][179]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:334][179]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:350][180]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:350][180]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:350][180]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:350][180]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:350][180]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:367][181]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:367][181]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:367][181]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:367][181]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:367][181]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:383][182]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:383][182]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:383][182]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:384][182]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:384][182]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:400][183]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:401][183]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:401][183]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:401][183]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:401][183]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:417][184]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:417][184]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:417][184]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:417][184]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:417][184]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:433][185]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:433][185]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:433][185]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:433][185]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:434][185]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:450][186]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:450][186]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:451][186]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:451][186]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:451][186]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:467][187]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:467][187]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:467][187]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:467][187]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:467][187]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:483][188]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:483][188]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:483][188]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:483][188]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:483][188]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:500][189]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:500][189]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:500][189]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:500][189]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:500][189]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:517][190]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:517][190]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:517][190]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:517][190]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:517][190]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:533][191]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:533][191]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:533][191]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:533][191]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:533][191]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:549][192]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:549][192]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:549][192]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:549][192]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:549][192]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:567][193]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:568][193]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:568][193]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:568][193]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:568][193]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:584][194]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:584][194]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:584][194]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:584][194]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:584][194]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:600][195]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:600][195]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:600][195]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:600][195]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:600][195]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:616][196]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:616][196]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:616][196]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:616][196]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:616][196]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:633][197]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:633][197]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:633][197]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:633][197]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:633][197]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:649][198]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:649][198]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:649][198]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:649][198]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:649][198]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:667][199]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:668][199]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:668][199]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:668][199]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:668][199]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:683][200]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:683][200]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:683][200]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:683][200]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:683][200]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:700][201]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:700][201]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:700][201]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:700][201]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:700][201]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:717][202]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:717][202]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:717][202]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:717][202]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:717][202]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:733][203]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:733][203]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:733][203]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:733][203]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:733][203]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:749][204]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:749][204]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:749][204]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:749][204]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:749][204]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:766][205]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:766][205]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:766][205]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:766][205]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:766][205]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:783][206]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:783][206]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:783][206]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:783][206]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:783][206]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:800][207]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:800][207]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:800][207]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:800][207]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:800][207]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:817][208]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:817][208]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:817][208]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:817][208]LogTemp: Display: BP_PushingPlatform_C_3 Platform over shoot by : 0.035767
+[2024.02.03-13.13.59:817][208]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:817][208]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:833][209]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:833][209]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:833][209]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:833][209]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:833][209]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:850][210]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:850][210]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:851][210]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:851][210]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:851][210]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:867][211]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:867][211]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:867][211]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:867][211]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:867][211]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:883][212]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:883][212]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:883][212]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:883][212]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:883][212]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:900][213]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:900][213]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:900][213]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:900][213]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:900][213]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:917][214]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:917][214]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:917][214]LogTemp: Display: BP_PushingPlatform_C_5 Platform over shoot by : 1.096558
+[2024.02.03-13.13.59:917][214]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:917][214]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:917][214]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:934][215]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:934][215]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:934][215]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:934][215]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:934][215]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:950][216]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:950][216]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:950][216]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:950][216]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:950][216]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:967][217]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:967][217]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:967][217]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:967][217]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:967][217]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:984][218]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:984][218]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:984][218]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:984][218]LogTemp: Display: Rotating
+[2024.02.03-13.13.59:984][218]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:000][219]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:000][219]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:000][219]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:000][219]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:000][219]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:017][220]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:017][220]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:017][220]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:017][220]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:017][220]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:034][221]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:034][221]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:034][221]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:034][221]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:034][221]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:050][222]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:050][222]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:050][222]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:050][222]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:050][222]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:066][223]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:066][223]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:066][223]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:066][223]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:066][223]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:083][224]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:084][224]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:084][224]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:084][224]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:084][224]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:100][225]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:100][225]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:100][225]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:100][225]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:100][225]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:117][226]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:117][226]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:117][226]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:117][226]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:117][226]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:134][227]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:134][227]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:134][227]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:134][227]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:134][227]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:150][228]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:151][228]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:151][228]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:151][228]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:151][228]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:167][229]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:167][229]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:167][229]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:167][229]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:167][229]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:183][230]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:183][230]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:183][230]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:183][230]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:183][230]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:200][231]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:200][231]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:200][231]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:200][231]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:200][231]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:217][232]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:217][232]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:217][232]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:217][232]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:217][232]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:233][233]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:233][233]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:233][233]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:233][233]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:233][233]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:250][234]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:250][234]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:250][234]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:250][234]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:250][234]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:266][235]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:266][235]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:266][235]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:266][235]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:266][235]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:284][236]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:284][236]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:284][236]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:284][236]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:284][236]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:300][237]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:301][237]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:301][237]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:301][237]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:301][237]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:316][238]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:317][238]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:317][238]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:317][238]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:317][238]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:333][239]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:333][239]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:333][239]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:333][239]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:333][239]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:350][240]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:350][240]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:350][240]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:350][240]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:350][240]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:367][241]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:367][241]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:367][241]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:367][241]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:367][241]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:384][242]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:384][242]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:384][242]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:384][242]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:384][242]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:401][243]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:401][243]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:401][243]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:401][243]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:401][243]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:417][244]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:417][244]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:417][244]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:417][244]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:417][244]LogTemp: Display: BP_PushingPlatform_C_6 Platform over shoot by : 1.128174
+[2024.02.03-13.14.00:417][244]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:434][245]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:434][245]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:434][245]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:434][245]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:434][245]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:451][246]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:451][246]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:451][246]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:451][246]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:451][246]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:468][247]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:468][247]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:468][247]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:468][247]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:468][247]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:484][248]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:484][248]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:484][248]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:484][248]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:484][248]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:501][249]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:501][249]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:501][249]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:501][249]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:501][249]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:517][250]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:517][250]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:518][250]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:518][250]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:518][250]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:534][251]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:534][251]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:534][251]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:534][251]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:534][251]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:550][252]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:550][252]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:550][252]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:550][252]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:550][252]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:568][253]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:568][253]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:568][253]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:568][253]LogTemp: Display: BP_PushingPlatform_C_3 Platform over shoot by : 1.095459
+[2024.02.03-13.14.00:568][253]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:568][253]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:584][254]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:584][254]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:584][254]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:584][254]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:584][254]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:600][255]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:600][255]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:600][255]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:600][255]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:600][255]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:617][256]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:617][256]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:617][256]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:617][256]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:617][256]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:634][257]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:634][257]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:634][257]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:634][257]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:634][257]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:650][258]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:650][258]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:650][258]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:650][258]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:650][258]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:667][259]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:667][259]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:667][259]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:667][259]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:667][259]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:684][260]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:684][260]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:684][260]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:684][260]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:684][260]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:700][261]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:700][261]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:700][261]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:700][261]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:700][261]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:717][262]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:718][262]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:718][262]LogTemp: Display: BP_PushingPlatform_C_5 Platform over shoot by : 0.049194
+[2024.02.03-13.14.00:718][262]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:718][262]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:718][262]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:734][263]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:734][263]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:734][263]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:734][263]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:734][263]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:750][264]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:750][264]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:750][264]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:750][264]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:750][264]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:767][265]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:768][265]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:768][265]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:768][265]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:768][265]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:784][266]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:784][266]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:784][266]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:784][266]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:784][266]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:801][267]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:801][267]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:801][267]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:801][267]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:801][267]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:817][268]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:818][268]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:818][268]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:818][268]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:818][268]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:834][269]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:834][269]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:834][269]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:834][269]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:834][269]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:850][270]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:851][270]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:851][270]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:851][270]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:851][270]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:867][271]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:867][271]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:867][271]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:867][271]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:867][271]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:884][272]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:884][272]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:884][272]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:884][272]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:884][272]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:901][273]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:901][273]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:901][273]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:901][273]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:901][273]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:917][274]LogTemp: Display: BP_MovingPlatform_C_2 Platform over shoot by : 0.171326
+[2024.02.03-13.14.00:917][274]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:917][274]LogTemp: Display: BP_MovingPlatform_C_0 Platform over shoot by : 0.171326
+[2024.02.03-13.14.00:917][274]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:917][274]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:917][274]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:917][274]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:934][275]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:934][275]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:934][275]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:934][275]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:934][275]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:950][276]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:950][276]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:950][276]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:950][276]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:950][276]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:967][277]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:967][277]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:967][277]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:967][277]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:967][277]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:984][278]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:985][278]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:985][278]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:985][278]LogTemp: Display: Rotating
+[2024.02.03-13.14.00:985][278]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:001][279]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:001][279]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:001][279]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:001][279]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:001][279]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:017][280]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:018][280]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:018][280]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:018][280]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:018][280]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:034][281]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:034][281]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:034][281]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:034][281]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:034][281]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:051][282]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:051][282]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:051][282]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:051][282]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:051][282]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:067][283]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:067][283]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:067][283]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:067][283]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:067][283]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:084][284]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:084][284]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:084][284]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:084][284]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:084][284]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:100][285]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:100][285]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:100][285]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:100][285]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:100][285]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:117][286]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:117][286]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:117][286]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:117][286]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:117][286]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:133][287]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:135][287]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:135][287]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:135][287]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:135][287]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:151][288]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:151][288]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:151][288]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:151][288]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:151][288]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:167][289]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:167][289]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:167][289]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:167][289]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:167][289]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:183][290]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:183][290]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:183][290]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:183][290]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:183][290]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:200][291]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:200][291]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:200][291]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:200][291]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:200][291]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:216][292]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:217][292]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:217][292]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:217][292]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:217][292]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:233][293]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:234][293]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:234][293]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:234][293]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:234][293]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:250][294]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:250][294]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:250][294]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:250][294]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:250][294]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:267][295]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:267][295]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:267][295]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:267][295]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:267][295]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:283][296]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:284][296]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:284][296]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:284][296]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:284][296]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:301][297]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:301][297]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:301][297]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:301][297]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:301][297]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:317][298]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:317][298]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:317][298]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:317][298]LogTemp: Display: BP_PushingPlatform_C_3 Platform over shoot by : 0.339844
+[2024.02.03-13.14.01:317][298]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:317][298]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:333][299]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:334][299]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:334][299]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:334][299]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:334][299]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:350][300]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:350][300]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:350][300]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:350][300]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:350][300]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:367][301]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:367][301]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:367][301]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:367][301]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:367][301]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:384][302]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:384][302]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:384][302]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:384][302]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:384][302]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:401][303]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:401][303]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:401][303]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:401][303]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:401][303]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:417][304]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:417][304]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:418][304]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:418][304]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:418][304]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:433][305]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:434][305]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:434][305]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:434][305]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:434][305]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:451][306]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:451][306]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:451][306]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:451][306]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:451][306]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:467][307]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:467][307]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:467][307]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:467][307]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:467][307]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:484][308]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:484][308]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:484][308]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:484][308]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:484][308]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:501][309]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:501][309]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:501][309]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:501][309]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:501][309]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:517][310]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:518][310]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:518][310]LogTemp: Display: BP_PushingPlatform_C_5 Platform over shoot by : 0.326172
+[2024.02.03-13.14.01:518][310]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:518][310]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:518][310]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:534][311]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:534][311]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:534][311]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:534][311]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:534][311]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:550][312]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:550][312]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:550][312]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:550][312]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:550][312]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:567][313]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:568][313]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:568][313]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:568][313]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:568][313]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:584][314]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:584][314]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:584][314]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:584][314]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:584][314]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:601][315]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:601][315]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:601][315]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:601][315]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:601][315]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:617][316]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:617][316]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:617][316]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:617][316]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:617][316]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:634][317]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:634][317]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:634][317]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:634][317]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:634][317]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:650][318]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:650][318]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:650][318]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:650][318]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:650][318]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:667][319]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:667][319]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:667][319]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:667][319]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:667][319]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:684][320]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:684][320]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:684][320]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:684][320]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:684][320]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:700][321]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:700][321]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:700][321]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:700][321]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:700][321]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:718][322]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:718][322]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:718][322]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:718][322]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:718][322]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:734][323]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:735][323]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:735][323]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:735][323]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:735][323]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:750][324]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:750][324]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:750][324]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:750][324]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:750][324]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:767][325]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:768][325]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:768][325]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:768][325]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:768][325]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:785][326]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:785][326]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:785][326]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:785][326]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:785][326]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:801][327]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:801][327]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:801][327]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:801][327]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:801][327]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:818][328]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:818][328]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:818][328]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:818][328]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:818][328]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:834][329]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:835][329]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:835][329]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:835][329]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:835][329]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:851][330]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:851][330]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:851][330]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:851][330]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:851][330]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:867][331]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:867][331]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:867][331]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:867][331]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:867][331]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:884][332]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:884][332]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:884][332]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:884][332]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:884][332]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:901][333]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:901][333]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:901][333]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:901][333]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:901][333]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:917][334]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:917][334]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:917][334]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:917][334]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:917][334]LogTemp: Display: BP_PushingPlatform_C_6 Platform over shoot by : 0.356445
+[2024.02.03-13.14.01:917][334]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:934][335]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:935][335]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:935][335]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:935][335]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:935][335]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:950][336]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:950][336]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:950][336]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:950][336]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:950][336]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:967][337]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:967][337]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:967][337]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:967][337]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:967][337]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:984][338]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:984][338]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:984][338]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:984][338]LogTemp: Display: Rotating
+[2024.02.03-13.14.01:984][338]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:001][339]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:001][339]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:001][339]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:001][339]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:001][339]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:017][340]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:017][340]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:017][340]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:017][340]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:017][340]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:034][341]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:034][341]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:034][341]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:034][341]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:034][341]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:051][342]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:051][342]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:051][342]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:051][342]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:051][342]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:067][343]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:067][343]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:067][343]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:067][343]LogTemp: Display: BP_PushingPlatform_C_3 Platform over shoot by : 0.026855
+[2024.02.03-13.14.02:067][343]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:067][343]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:084][344]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:084][344]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:084][344]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:084][344]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:084][344]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:100][345]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:100][345]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:100][345]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:100][345]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:100][345]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:117][346]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:117][346]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:117][346]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:118][346]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:118][346]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:134][347]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:134][347]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:134][347]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:134][347]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:134][347]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:150][348]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:150][348]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:150][348]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:150][348]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:150][348]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:168][349]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:168][349]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:168][349]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:168][349]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:168][349]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:184][350]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:184][350]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:184][350]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:184][350]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:184][350]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:200][351]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:201][351]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:201][351]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:201][351]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:201][351]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:217][352]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:217][352]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:217][352]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:217][352]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:217][352]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:234][353]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:234][353]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:234][353]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:234][353]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:234][353]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:250][354]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:251][354]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:251][354]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:251][354]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:251][354]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:268][355]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:268][355]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:268][355]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:268][355]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:268][355]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:284][356]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:284][356]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:284][356]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:284][356]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:284][356]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:300][357]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:300][357]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:300][357]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:301][357]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:301][357]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:317][358]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:317][358]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:317][358]LogTemp: Display: BP_PushingPlatform_C_5 Platform over shoot by : 0.027222
+[2024.02.03-13.14.02:317][358]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:317][358]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:317][358]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:334][359]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:334][359]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:334][359]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:334][359]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:334][359]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:351][360]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:351][360]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:351][360]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:351][360]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:351][360]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:368][361]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:368][361]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:368][361]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:368][361]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:368][361]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:384][362]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:384][362]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:384][362]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:384][362]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:384][362]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:400][363]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:400][363]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:400][363]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:400][363]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:400][363]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:417][364]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:417][364]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:417][364]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:417][364]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:417][364]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:434][365]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:434][365]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:434][365]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:434][365]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:434][365]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:450][366]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:450][366]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:450][366]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:450][366]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:450][366]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:467][367]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:467][367]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:467][367]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:467][367]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:467][367]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:484][368]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:484][368]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:484][368]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:484][368]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:484][368]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:501][369]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:501][369]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:501][369]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:501][369]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:501][369]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:517][370]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:517][370]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:518][370]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:518][370]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:518][370]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:534][371]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:534][371]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:534][371]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:534][371]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:534][371]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:550][372]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:550][372]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:550][372]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:550][372]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:550][372]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:567][373]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:567][373]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:567][373]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:567][373]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:567][373]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:585][374]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:585][374]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:585][374]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:585][374]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:585][374]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:601][375]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:601][375]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:601][375]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:601][375]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:601][375]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:617][376]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:617][376]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:617][376]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:617][376]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:617][376]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:634][377]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:634][377]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:634][377]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:634][377]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:634][377]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:650][378]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:650][378]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:650][378]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:650][378]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:650][378]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:667][379]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:667][379]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:667][379]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:667][379]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:667][379]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:684][380]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:684][380]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:684][380]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:684][380]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:684][380]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:701][381]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:701][381]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:701][381]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:701][381]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:701][381]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:717][382]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:718][382]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:718][382]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:718][382]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:718][382]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:735][383]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:735][383]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:735][383]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:735][383]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:735][383]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:750][384]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:750][384]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:750][384]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:750][384]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:750][384]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:767][385]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:768][385]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:768][385]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:768][385]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:768][385]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:784][386]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:784][386]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:784][386]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:784][386]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:784][386]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:801][387]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:801][387]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:801][387]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:801][387]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:801][387]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:817][388]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:817][388]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:817][388]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:817][388]LogTemp: Display: BP_PushingPlatform_C_3 Platform over shoot by : 0.089600
+[2024.02.03-13.14.02:817][388]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:817][388]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:835][389]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:835][389]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:835][389]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:835][389]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:835][389]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:851][390]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:851][390]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:851][390]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:851][390]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:851][390]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:867][391]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:868][391]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:868][391]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:868][391]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:868][391]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:884][392]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:884][392]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:884][392]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:884][392]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:884][392]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:900][393]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:900][393]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:900][393]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:900][393]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:900][393]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:917][394]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:917][394]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:917][394]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:917][394]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:917][394]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:934][395]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:934][395]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:934][395]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:934][395]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:934][395]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:950][396]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:951][396]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:951][396]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:951][396]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:951][396]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:967][397]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:967][397]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:967][397]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:967][397]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:967][397]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:984][398]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:984][398]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:984][398]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:984][398]LogTemp: Display: Rotating
+[2024.02.03-13.14.02:984][398]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:000][399]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:000][399]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:000][399]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:000][399]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:000][399]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:017][400]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:017][400]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:017][400]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:017][400]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:017][400]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:034][401]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:034][401]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:034][401]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:034][401]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:034][401]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:050][402]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:050][402]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:050][402]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:050][402]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:050][402]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:068][403]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:068][403]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:068][403]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:068][403]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:069][403]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:084][404]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:084][404]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:084][404]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:084][404]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:084][404]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:101][405]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:101][405]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:101][405]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:101][405]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:101][405]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:118][406]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:118][406]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:118][406]LogTemp: Display: BP_PushingPlatform_C_5 Platform over shoot by : 0.089844
+[2024.02.03-13.14.03:118][406]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:118][406]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:118][406]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:134][407]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:134][407]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:134][407]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:134][407]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:134][407]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:151][408]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:151][408]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:151][408]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:151][408]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:151][408]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:168][409]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:168][409]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:168][409]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:168][409]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:168][409]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:184][410]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:184][410]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:184][410]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:184][410]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:184][410]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:201][411]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:201][411]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:201][411]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:201][411]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:201][411]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:217][412]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:218][412]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:218][412]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:218][412]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:218][412]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:234][413]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:234][413]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:234][413]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:234][413]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:234][413]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:250][414]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:251][414]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:251][414]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:251][414]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:251][414]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:267][415]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:268][415]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:268][415]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:268][415]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:268][415]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:283][416]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:283][416]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:284][416]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:284][416]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:284][416]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:300][417]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:300][417]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:300][417]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:300][417]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:300][417]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:317][418]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:317][418]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:318][418]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:318][418]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:318][418]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:333][419]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:333][419]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:333][419]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:333][419]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:333][419]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:351][420]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:351][420]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:351][420]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:351][420]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:351][420]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:367][421]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:367][421]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:367][421]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:367][421]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:367][421]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:385][422]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:385][422]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:385][422]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:385][422]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:385][422]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:401][423]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:401][423]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:401][423]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:401][423]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:401][423]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:417][424]LogTemp: Display: BP_MovingPlatform_C_2 Platform over shoot by : 0.012451
+[2024.02.03-13.14.03:418][424]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:418][424]LogTemp: Display: BP_MovingPlatform_C_0 Platform over shoot by : 0.012451
+[2024.02.03-13.14.03:418][424]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:418][424]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:418][424]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:418][424]LogTemp: Display: BP_PushingPlatform_C_6 Platform over shoot by : 0.108887
+[2024.02.03-13.14.03:418][424]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:434][425]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:434][425]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:434][425]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:434][425]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:434][425]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:451][426]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:451][426]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:451][426]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:451][426]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:451][426]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:468][427]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:468][427]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:468][427]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:468][427]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:468][427]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:484][428]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:484][428]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:484][428]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:484][428]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:484][428]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:501][429]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:501][429]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:501][429]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:501][429]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:501][429]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:518][430]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:518][430]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:518][430]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:518][430]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:518][430]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:534][431]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:534][431]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:534][431]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:534][431]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:534][431]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:551][432]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:551][432]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:551][432]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:551][432]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:551][432]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:568][433]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:568][433]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:568][433]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:568][433]LogTemp: Display: BP_PushingPlatform_C_3 Platform over shoot by : 0.006592
+[2024.02.03-13.14.03:568][433]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:568][433]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:584][434]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:584][434]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:584][434]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:584][434]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:584][434]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:601][435]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:601][435]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:601][435]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:601][435]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:601][435]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:618][436]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:618][436]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:618][436]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:618][436]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:618][436]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:635][437]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:635][437]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:635][437]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:635][437]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:635][437]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:651][438]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:651][438]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:651][438]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:651][438]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:651][438]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:668][439]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:668][439]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:668][439]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:668][439]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:668][439]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:684][440]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:684][440]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:684][440]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:684][440]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:684][440]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:701][441]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:701][441]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:701][441]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:701][441]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:701][441]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:718][442]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:718][442]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:718][442]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:718][442]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:718][442]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:734][443]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:734][443]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:734][443]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:734][443]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:734][443]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:750][444]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:750][444]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:750][444]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:750][444]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:750][444]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:767][445]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:767][445]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:767][445]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:767][445]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:767][445]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:784][446]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:784][446]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:784][446]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:784][446]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:784][446]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:801][447]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:801][447]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:801][447]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:801][447]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:801][447]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:818][448]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:818][448]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:818][448]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:818][448]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:818][448]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:835][449]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:835][449]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:835][449]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:835][449]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:835][449]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:851][450]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:851][450]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:851][450]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:851][450]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:851][450]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:867][451]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:867][451]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:867][451]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:867][451]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:867][451]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:884][452]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:884][452]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:884][452]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:884][452]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:884][452]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:900][453]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:900][453]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:900][453]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:900][453]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:900][453]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:917][454]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:917][454]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:917][454]LogTemp: Display: BP_PushingPlatform_C_5 Platform over shoot by : 0.041016
+[2024.02.03-13.14.03:917][454]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:917][454]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:917][454]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:934][455]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:934][455]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:934][455]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:934][455]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:934][455]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:950][456]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:951][456]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:951][456]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:951][456]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:951][456]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:967][457]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:967][457]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:967][457]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:967][457]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:967][457]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:985][458]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:985][458]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:985][458]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:985][458]LogTemp: Display: Rotating
+[2024.02.03-13.14.03:985][458]LogTemp: Display: Rotating
+[2024.02.03-13.14.04:001][459]LogTemp: Display: Rotating
+[2024.02.03-13.14.04:001][459]LogTemp: Display: Rotating
+[2024.02.03-13.14.04:001][459]LogTemp: Display: Rotating
+[2024.02.03-13.14.04:001][459]LogTemp: Display: Rotating
+[2024.02.03-13.14.04:001][459]LogTemp: Display: Rotating
+[2024.02.03-13.14.04:017][460]LogTemp: Display: Rotating
+[2024.02.03-13.14.04:017][460]LogTemp: Display: Rotating
+[2024.02.03-13.14.04:017][460]LogTemp: Display: Rotating
+[2024.02.03-13.14.04:017][460]LogTemp: Display: Rotating
+[2024.02.03-13.14.04:017][460]LogTemp: Display: Rotating
+[2024.02.03-13.14.04:034][461]LogTemp: Display: Rotating
+[2024.02.03-13.14.04:034][461]LogTemp: Display: Rotating
+[2024.02.03-13.14.04:034][461]LogTemp: Display: Rotating
+[2024.02.03-13.14.04:034][461]LogTemp: Display: Rotating
+[2024.02.03-13.14.04:034][461]LogTemp: Display: Rotating
+[2024.02.03-13.14.04:051][462]LogTemp: Display: Rotating
+[2024.02.03-13.14.04:051][462]LogTemp: Display: Rotating
+[2024.02.03-13.14.04:051][462]LogTemp: Display: Rotating
+[2024.02.03-13.14.04:051][462]LogTemp: Display: Rotating
+[2024.02.03-13.14.04:051][462]LogTemp: Display: Rotating
+[2024.02.03-13.14.04:067][463]LogTemp: Display: Rotating
+[2024.02.03-13.14.04:067][463]LogTemp: Display: Rotating
+[2024.02.03-13.14.04:067][463]LogTemp: Display: Rotating
+[2024.02.03-13.14.04:067][463]LogTemp: Display: Rotating
+[2024.02.03-13.14.04:067][463]LogTemp: Display: Rotating
+[2024.02.03-13.14.04:083][464]LogTemp: Display: Rotating
+[2024.02.03-13.14.04:083][464]LogTemp: Display: Rotating
+[2024.02.03-13.14.04:083][464]LogTemp: Display: Rotating
+[2024.02.03-13.14.04:083][464]LogTemp: Display: Rotating
+[2024.02.03-13.14.04:083][464]LogTemp: Display: Rotating
+[2024.02.03-13.14.04:101][465]LogTemp: Display: Rotating
+[2024.02.03-13.14.04:101][465]LogTemp: Display: Rotating
+[2024.02.03-13.14.04:101][465]LogTemp: Display: Rotating
+[2024.02.03-13.14.04:101][465]LogTemp: Display: Rotating
+[2024.02.03-13.14.04:101][465]LogTemp: Display: Rotating
+[2024.02.03-13.14.04:117][466]LogTemp: Display: Rotating
+[2024.02.03-13.14.04:117][466]LogTemp: Display: Rotating
+[2024.02.03-13.14.04:117][466]LogTemp: Display: Rotating
+[2024.02.03-13.14.04:117][466]LogTemp: Display: Rotating
+[2024.02.03-13.14.04:117][466]LogTemp: Display: Rotating
+[2024.02.03-13.14.04:134][467]LogTemp: Display: Rotating
+[2024.02.03-13.14.04:134][467]LogTemp: Display: Rotating
+[2024.02.03-13.14.04:134][467]LogTemp: Display: Rotating
+[2024.02.03-13.14.04:134][467]LogTemp: Display: Rotating
+[2024.02.03-13.14.04:134][467]LogTemp: Display: Rotating
+[2024.02.03-13.14.04:166][468]LogTemp: Display: Rotating
+[2024.02.03-13.14.04:166][468]LogTemp: Display: Rotating
+[2024.02.03-13.14.04:166][468]LogTemp: Display: Rotating
+[2024.02.03-13.14.04:166][468]LogTemp: Display: Rotating
+[2024.02.03-13.14.04:166][468]LogTemp: Display: Rotating
+[2024.02.03-13.14.04:183][469]LogTemp: Display: Rotating
+[2024.02.03-13.14.04:183][469]LogTemp: Display: Rotating
+[2024.02.03-13.14.04:183][469]LogTemp: Display: Rotating
+[2024.02.03-13.14.04:183][469]LogTemp: Display: Rotating
+[2024.02.03-13.14.04:183][469]LogTemp: Display: Rotating
+[2024.02.03-13.14.04:200][470]LogTemp: Display: Rotating
+[2024.02.03-13.14.04:200][470]LogTemp: Display: Rotating
+[2024.02.03-13.14.04:200][470]LogTemp: Display: Rotating
+[2024.02.03-13.14.04:200][470]LogTemp: Display: Rotating
+[2024.02.03-13.14.04:200][470]LogTemp: Display: Rotating
+[2024.02.03-13.14.04:216][471]LogTemp: Display: Rotating
+[2024.02.03-13.14.04:216][471]LogTemp: Display: Rotating
+[2024.02.03-13.14.04:216][471]LogTemp: Display: Rotating
+[2024.02.03-13.14.04:216][471]LogTemp: Display: Rotating
+[2024.02.03-13.14.04:216][471]LogTemp: Display: Rotating
+[2024.02.03-13.14.04:232][472]LogTemp: Display: Rotating
+[2024.02.03-13.14.04:232][472]LogTemp: Display: Rotating
+[2024.02.03-13.14.04:232][472]LogTemp: Display: Rotating
+[2024.02.03-13.14.04:232][472]LogTemp: Display: Rotating
+[2024.02.03-13.14.04:232][472]LogTemp: Display: Rotating
+[2024.02.03-13.14.04:250][473]LogTemp: Display: Rotating
+[2024.02.03-13.14.04:250][473]LogTemp: Display: Rotating
+[2024.02.03-13.14.04:250][473]LogTemp: Display: Rotating
+[2024.02.03-13.14.04:250][473]LogTemp: Display: Rotating
+[2024.02.03-13.14.04:250][473]LogTemp: Display: Rotating
+[2024.02.03-13.14.04:266][474]LogTemp: Display: Rotating
+[2024.02.03-13.14.04:266][474]LogTemp: Display: Rotating
+[2024.02.03-13.14.04:266][474]LogTemp: Display: Rotating
+[2024.02.03-13.14.04:266][474]LogTemp: Display: Rotating
+[2024.02.03-13.14.04:266][474]LogTemp: Display: Rotating
+[2024.02.03-13.14.04:283][475]LogTemp: Display: Rotating
+[2024.02.03-13.14.04:283][475]LogTemp: Display: Rotating
+[2024.02.03-13.14.04:283][475]LogTemp: Display: Rotating
+[2024.02.03-13.14.04:283][475]LogTemp: Display: Rotating
+[2024.02.03-13.14.04:283][475]LogTemp: Display: Rotating
+[2024.02.03-13.14.04:299][476]LogTemp: Display: Rotating
+[2024.02.03-13.14.04:300][476]LogTemp: Display: Rotating
+[2024.02.03-13.14.04:300][476]LogTemp: Display: Rotating
+[2024.02.03-13.14.04:300][476]LogTemp: Display: Rotating
+[2024.02.03-13.14.04:300][476]LogTemp: Display: Rotating
+[2024.02.03-13.14.04:316][477]LogTemp: Display: Rotating
+[2024.02.03-13.14.04:316][477]LogTemp: Display: Rotating
+[2024.02.03-13.14.04:316][477]LogTemp: Display: Rotating
+[2024.02.03-13.14.04:316][477]LogTemp: Display: Rotating
+[2024.02.03-13.14.04:316][477]LogTemp: Display: Rotating
+[2024.02.03-13.14.04:450][485]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.03-13.14.04:450][485]LogWorld: BeginTearingDown for /Game/UEDPIE_0_main
+[2024.02.03-13.14.04:450][485]LogWorld: UWorld::CleanupWorld for main, bSessionEnded=true, bCleanupResources=true
+[2024.02.03-13.14.04:452][485]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.03-13.14.04:454][485]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.03-13.14.04:457][485]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.03-13.14.04:464][485]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.03-13.14.04:467][485]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 46
+[2024.02.03-13.14.04:467][485]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=46
+[2024.02.03-13.14.04:468][485]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=46
+[2024.02.03-13.14.04:491][485]LogUObjectHash: Compacting FUObjectHashTables data took   3.10ms
+[2024.02.03-13.14.04:571][487]LogPlayLevel: Display: Destroying online subsystem :Context_62
+[2024.02.03-13.14.20:558][250]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
