@@ -3787,3 +3787,339 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.02.03-12.11.32:656][881]AssetCheck: New page: Asset Save: main
 [2024.02.03-12.11.32:656][881]LogContentValidation: Display: Validating /Script/Engine.World /Game/main.main
 [2024.02.03-12.11.35:216][ 32]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2024.02.03-12.21.50:439][164]LogLiveCoding: Display: Starting Live Coding compile.
+[2024.02.03-12.22.24:001][173]LogLiveCoding: Display:    Creating library C:\UnrealEngine\Obstacle-Assault\Obstacle\Binaries\Win64\UnrealEditor-Obstacle.patch_1.lib and object C:\UnrealEngine\Obstacle-Assault\Obstacle\Binaries\Win64\UnrealEditor-Obstacle.patch_1.exp
+[2024.02.03-12.22.24:365][176]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2024.02.03-12.22.24:704][177]Display: Reload/Re-instancing Complete: 1 package changed, 1 class unchanged
+[2024.02.03-12.22.24:704][177]LogLiveCoding: Display: Live coding succeeded
+[2024.02.03-12.22.28:039][358]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.03-12.22.28:045][358]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.03-12.22.28:045][358]PIE: New page: PIE session: main (3 Feb 2024, 12:22:28)
+[2024.02.03-12.22.28:068][358]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_main
+[2024.02.03-12.22.28:088][358]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020456s)
+[2024.02.03-12.22.28:088][358]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/main.main to /Game/UEDPIE_0_main.main (0.020507s)
+[2024.02.03-12.22.28:170][358]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2024.02.03-12.22.28:172][358]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.03-12.22.28:172][358]LogChaos: FPhysicsSolverBase::AsyncDt:0.016667
+[2024.02.03-12.22.28:172][358]LogAIModule: Creating AISystem for world main
+[2024.02.03-12.22.28:173][358]LogPlayLevel: PIE: World Init took: (0.001011s)
+[2024.02.03-12.22.28:173][358]LogAudio: Display: Creating Audio Device:                 Id: 41, Scope: Unique, Realtime: True
+[2024.02.03-12.22.28:173][358]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.03-12.22.28:173][358]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.03-12.22.28:173][358]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.03-12.22.28:173][358]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.03-12.22.28:173][358]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.03-12.22.28:173][358]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.03-12.22.28:173][358]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.03-12.22.28:173][358]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.03-12.22.28:173][358]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.03-12.22.28:173][358]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.03-12.22.28:173][358]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.03-12.22.28:175][358]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.03-12.22.28:199][358]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2024.02.03-12.22.28:200][358]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.03-12.22.28:200][358]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.03-12.22.28:200][358]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.03-12.22.28:200][358]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=41
+[2024.02.03-12.22.28:200][358]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=41
+[2024.02.03-12.22.28:202][358]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=41
+[2024.02.03-12.22.28:202][358]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=41
+[2024.02.03-12.22.28:202][358]LogInit: FAudioDevice initialized with ID 41.
+[2024.02.03-12.22.28:202][358]LogAudio: Display: Audio Device (ID: 41) registered with world 'main'.
+[2024.02.03-12.22.28:202][358]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 41
+[2024.02.03-12.22.28:205][358]LogLoad: Game class is 'PB_ObstacleAssaultGameMode_C'
+[2024.02.03-12.22.28:216][358]LogWorld: Bringing World /Game/UEDPIE_0_main.main up for play (max tick rate 60) at 2024.02.03-12.22.28
+[2024.02.03-12.22.29:699][358]LogWorld: Bringing up level for play took: 1.493073
+[2024.02.03-12.22.29:701][358]LogOnline: OSS: Created online subsystem instance for: :Context_57
+[2024.02.03-12.22.29:703][358]LogTemp: Display: Hello
+[2024.02.03-12.22.29:703][358]LogTemp: Display: Hello
+[2024.02.03-12.22.29:703][358]LogTemp: Display: Hello
+[2024.02.03-12.22.29:703][358]LogTemp: Display: Hello
+[2024.02.03-12.22.29:703][358]LogTemp: Display: Hello
+[2024.02.03-12.22.29:703][358]PIE: Server logged in
+[2024.02.03-12.22.29:704][358]PIE: Play in editor total start time 1.66 seconds.
+[2024.02.03-12.22.40:314][972]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.03-12.22.40:314][972]LogWorld: BeginTearingDown for /Game/UEDPIE_0_main
+[2024.02.03-12.22.40:314][972]LogWorld: UWorld::CleanupWorld for main, bSessionEnded=true, bCleanupResources=true
+[2024.02.03-12.22.40:317][972]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.03-12.22.40:319][972]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.03-12.22.40:323][972]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.03-12.22.40:330][972]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.03-12.22.40:331][972]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 41
+[2024.02.03-12.22.40:331][972]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=41
+[2024.02.03-12.22.40:333][972]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=41
+[2024.02.03-12.22.40:369][972]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2024.02.03-12.22.40:423][973]LogPlayLevel: Display: Destroying online subsystem :Context_57
+[2024.02.03-12.25.45:159][ 68]LogLiveCoding: Display: Starting Live Coding compile.
+[2024.02.03-12.26.14:808][788]LogLiveCoding: Display:    Creating library C:\UnrealEngine\Obstacle-Assault\Obstacle\Binaries\Win64\UnrealEditor-Obstacle.patch_2.lib and object C:\UnrealEngine\Obstacle-Assault\Obstacle\Binaries\Win64\UnrealEditor-Obstacle.patch_2.exp
+[2024.02.03-12.26.15:226][789]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2024.02.03-12.26.15:589][790]Display: Reload/Re-instancing Complete: 1 package changed, 1 class unchanged
+[2024.02.03-12.26.15:589][790]LogLiveCoding: Display: Live coding succeeded
+[2024.02.03-12.26.38:558][972]LogLiveCoding: Display: Starting Live Coding compile.
+[2024.02.03-12.27.09:365][747]LogSlate: Window 'Editor Preferences' being destroyed
+[2024.02.03-12.27.09:371][747]LogSlate: Window 'Editor Preferences' being destroyed
+[2024.02.03-12.27.11:361][840]LogLiveCoding: Display:    Creating library C:\UnrealEngine\Obstacle-Assault\Obstacle\Binaries\Win64\UnrealEditor-Obstacle.patch_3.lib and object C:\UnrealEngine\Obstacle-Assault\Obstacle\Binaries\Win64\UnrealEditor-Obstacle.patch_3.exp
+[2024.02.03-12.27.11:754][842]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2024.02.03-12.27.12:061][843]Display: Reload/Re-instancing Complete: 1 package changed, 1 class unchanged
+[2024.02.03-12.27.12:061][843]LogLiveCoding: Display: Live coding succeeded
+[2024.02.03-12.27.17:204][131]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.03-12.27.17:209][131]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.03-12.27.17:209][131]PIE: New page: PIE session: main (3 Feb 2024, 12:27:17)
+[2024.02.03-12.27.17:209][131]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_main
+[2024.02.03-12.27.17:228][131]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019042s)
+[2024.02.03-12.27.17:228][131]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/main.main to /Game/UEDPIE_0_main.main (0.019079s)
+[2024.02.03-12.27.17:286][131]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2024.02.03-12.27.17:290][131]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.03-12.27.17:290][131]LogChaos: FPhysicsSolverBase::AsyncDt:0.016667
+[2024.02.03-12.27.17:290][131]LogAIModule: Creating AISystem for world main
+[2024.02.03-12.27.17:291][131]LogPlayLevel: PIE: World Init took: (0.001010s)
+[2024.02.03-12.27.17:291][131]LogAudio: Display: Creating Audio Device:                 Id: 42, Scope: Unique, Realtime: True
+[2024.02.03-12.27.17:291][131]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.03-12.27.17:291][131]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.03-12.27.17:291][131]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.03-12.27.17:291][131]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.03-12.27.17:291][131]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.03-12.27.17:291][131]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.03-12.27.17:291][131]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.03-12.27.17:291][131]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.03-12.27.17:291][131]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.03-12.27.17:291][131]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.03-12.27.17:291][131]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.03-12.27.17:293][131]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.03-12.27.17:317][131]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2024.02.03-12.27.17:317][131]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.03-12.27.17:317][131]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.03-12.27.17:317][131]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.03-12.27.17:318][131]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=42
+[2024.02.03-12.27.17:318][131]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=42
+[2024.02.03-12.27.17:319][131]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=42
+[2024.02.03-12.27.17:319][131]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=42
+[2024.02.03-12.27.17:319][131]LogInit: FAudioDevice initialized with ID 42.
+[2024.02.03-12.27.17:319][131]LogAudio: Display: Audio Device (ID: 42) registered with world 'main'.
+[2024.02.03-12.27.17:319][131]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 42
+[2024.02.03-12.27.17:322][131]LogLoad: Game class is 'PB_ObstacleAssaultGameMode_C'
+[2024.02.03-12.27.17:332][131]LogWorld: Bringing World /Game/UEDPIE_0_main.main up for play (max tick rate 60) at 2024.02.03-12.27.17
+[2024.02.03-12.27.18:528][131]LogWorld: Bringing up level for play took: 1.205948
+[2024.02.03-12.27.18:530][131]LogOnline: OSS: Created online subsystem instance for: :Context_58
+[2024.02.03-12.27.18:532][131]LogTemp: Display: Configure Moved Distance: 500.000000
+[2024.02.03-12.27.18:532][131]LogTemp: Display: Configure Moved Distance: 500.000000
+[2024.02.03-12.27.18:533][131]LogTemp: Display: Configure Moved Distance: 1500.000000
+[2024.02.03-12.27.18:533][131]LogTemp: Display: Configure Moved Distance: 1600.000000
+[2024.02.03-12.27.18:533][131]LogTemp: Display: Configure Moved Distance: 3000.000000
+[2024.02.03-12.27.18:533][131]PIE: Server logged in
+[2024.02.03-12.27.18:534][131]PIE: Play in editor total start time 1.325 seconds.
+[2024.02.03-12.27.40:237][379]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.03-12.27.40:237][379]LogWorld: BeginTearingDown for /Game/UEDPIE_0_main
+[2024.02.03-12.27.40:238][379]LogWorld: UWorld::CleanupWorld for main, bSessionEnded=true, bCleanupResources=true
+[2024.02.03-12.27.40:239][379]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.03-12.27.40:242][379]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.03-12.27.40:247][379]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.03-12.27.40:260][379]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.02.03-12.27.40:262][379]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 42
+[2024.02.03-12.27.40:263][379]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=42
+[2024.02.03-12.27.40:264][379]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=42
+[2024.02.03-12.27.40:269][379]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.03-12.27.40:282][379]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2024.02.03-12.27.40:339][380]LogPlayLevel: Display: Destroying online subsystem :Context_58
+[2024.02.03-12.43.56:272][536]LogDerivedDataCache: C:/Users/masih/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:12.072 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 6212 files in 8165 folders with total size 349 MiB.
+[2024.02.03-12.47.14:867][265]LogLiveCoding: Display: Starting Live Coding compile.
+[2024.02.03-12.47.48:529][283]LogLiveCoding: Display:    Creating library C:\UnrealEngine\Obstacle-Assault\Obstacle\Binaries\Win64\UnrealEditor-Obstacle.patch_4.lib and object C:\UnrealEngine\Obstacle-Assault\Obstacle\Binaries\Win64\UnrealEditor-Obstacle.patch_4.exp
+[2024.02.03-12.47.48:840][286]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2024.02.03-12.47.49:142][287]Display: Reload/Re-instancing Complete: 1 package changed, 1 class unchanged
+[2024.02.03-12.47.49:142][287]LogLiveCoding: Display: Live coding succeeded
+[2024.02.03-12.47.52:064][442]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.03-12.47.52:069][442]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.03-12.47.52:069][442]PIE: New page: PIE session: main (3 Feb 2024, 12:47:52)
+[2024.02.03-12.47.52:069][442]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_main
+[2024.02.03-12.47.52:089][442]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019521s)
+[2024.02.03-12.47.52:089][442]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/main.main to /Game/UEDPIE_0_main.main (0.019562s)
+[2024.02.03-12.47.52:133][442]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2024.02.03-12.47.52:137][442]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.03-12.47.52:137][442]LogChaos: FPhysicsSolverBase::AsyncDt:0.016667
+[2024.02.03-12.47.52:138][442]LogAIModule: Creating AISystem for world main
+[2024.02.03-12.47.52:138][442]LogPlayLevel: PIE: World Init took: (0.001010s)
+[2024.02.03-12.47.52:138][442]LogAudio: Display: Creating Audio Device:                 Id: 43, Scope: Unique, Realtime: True
+[2024.02.03-12.47.52:138][442]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.03-12.47.52:138][442]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.03-12.47.52:138][442]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.03-12.47.52:138][442]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.03-12.47.52:138][442]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.03-12.47.52:138][442]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.03-12.47.52:138][442]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.03-12.47.52:138][442]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.03-12.47.52:139][442]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.03-12.47.52:139][442]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.03-12.47.52:139][442]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.03-12.47.52:140][442]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.03-12.47.52:163][442]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2024.02.03-12.47.52:164][442]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.03-12.47.52:164][442]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.03-12.47.52:164][442]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.03-12.47.52:164][442]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=43
+[2024.02.03-12.47.52:164][442]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=43
+[2024.02.03-12.47.52:166][442]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=43
+[2024.02.03-12.47.52:166][442]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=43
+[2024.02.03-12.47.52:166][442]LogInit: FAudioDevice initialized with ID 43.
+[2024.02.03-12.47.52:166][442]LogAudio: Display: Audio Device (ID: 43) registered with world 'main'.
+[2024.02.03-12.47.52:166][442]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 43
+[2024.02.03-12.47.52:169][442]LogLoad: Game class is 'PB_ObstacleAssaultGameMode_C'
+[2024.02.03-12.47.52:179][442]LogWorld: Bringing World /Game/UEDPIE_0_main.main up for play (max tick rate 60) at 2024.02.03-12.47.52
+[2024.02.03-12.47.53:428][442]LogWorld: Bringing up level for play took: 1.258106
+[2024.02.03-12.47.53:430][442]LogOnline: OSS: Created online subsystem instance for: :Context_59
+[2024.02.03-12.47.53:432][442]PIE: Server logged in
+[2024.02.03-12.47.53:433][442]PIE: Play in editor total start time 1.364 seconds.
+[2024.02.03-12.47.53:801][455]LogTemp: Display: BP_PushingPlatform_C_3 Platform over shoot by : 10.569214
+[2024.02.03-12.47.53:851][458]LogTemp: Display: BP_PushingPlatform_C_5 Platform over shoot by : 10.569580
+[2024.02.03-12.47.54:551][500]LogTemp: Display: BP_PushingPlatform_C_3 Platform over shoot by : 0.402954
+[2024.02.03-12.47.54:551][500]LogTemp: Display: BP_PushingPlatform_C_6 Platform over shoot by : 10.972168
+[2024.02.03-12.47.54:661][506]LogTemp: Display: BP_PushingPlatform_C_5 Platform over shoot by : 20.403442
+[2024.02.03-12.47.55:561][560]LogTemp: Display: BP_PushingPlatform_C_3 Platform over shoot by : 20.144653
+[2024.02.03-12.47.55:711][569]LogTemp: Display: BP_PushingPlatform_C_5 Platform over shoot by : 0.145020
+[2024.02.03-12.47.55:811][575]LogTemp: Display: BP_MovingPlatform_C_2 Platform over shoot by : 3.112091
+[2024.02.03-12.47.55:811][575]LogTemp: Display: BP_MovingPlatform_C_0 Platform over shoot by : 3.112091
+[2024.02.03-12.47.56:311][605]LogTemp: Display: BP_PushingPlatform_C_3 Platform over shoot by : 0.229370
+[2024.02.03-12.47.56:311][605]LogTemp: Display: BP_PushingPlatform_C_6 Platform over shoot by : 20.374023
+[2024.02.03-12.47.56:512][617]LogTemp: Display: BP_PushingPlatform_C_5 Platform over shoot by : 0.292603
+[2024.02.03-12.47.57:061][650]LogTemp: Display: BP_PushingPlatform_C_3 Platform over shoot by : 0.182007
+[2024.02.03-12.47.57:311][665]LogTemp: Display: BP_PushingPlatform_C_5 Platform over shoot by : 0.121582
+[2024.02.03-12.47.57:811][695]LogTemp: Display: BP_PushingPlatform_C_3 Platform over shoot by : 0.049805
+[2024.02.03-12.47.57:811][695]LogTemp: Display: BP_PushingPlatform_C_6 Platform over shoot by : 0.231689
+[2024.02.03-12.47.58:111][713]LogTemp: Display: BP_PushingPlatform_C_5 Platform over shoot by : 0.074219
+[2024.02.03-12.47.58:311][725]LogTemp: Display: BP_MovingPlatform_C_2 Platform over shoot by : 0.048706
+[2024.02.03-12.47.58:311][725]LogTemp: Display: BP_MovingPlatform_C_0 Platform over shoot by : 0.048706
+[2024.02.03-12.47.58:562][740]LogTemp: Display: BP_PushingPlatform_C_3 Platform over shoot by : 0.103638
+[2024.02.03-12.47.58:911][761]LogTemp: Display: BP_PushingPlatform_C_5 Platform over shoot by : 0.226562
+[2024.02.03-12.47.59:311][785]LogTemp: Display: BP_PushingPlatform_C_3 Platform over shoot by : 0.188843
+[2024.02.03-12.47.59:312][785]LogTemp: Display: BP_PushingPlatform_C_6 Platform over shoot by : 0.292480
+[2024.02.03-12.47.59:711][809]LogTemp: Display: BP_PushingPlatform_C_5 Platform over shoot by : 0.165161
+[2024.02.03-12.48.00:062][830]LogTemp: Display: BP_PushingPlatform_C_3 Platform over shoot by : 0.131592
+[2024.02.03-12.48.00:512][857]LogTemp: Display: BP_PushingPlatform_C_5 Platform over shoot by : 0.194824
+[2024.02.03-12.48.00:812][875]LogTemp: Display: BP_MovingPlatform_C_2 Platform over shoot by : 0.067841
+[2024.02.03-12.48.00:812][875]LogTemp: Display: BP_MovingPlatform_C_0 Platform over shoot by : 0.067841
+[2024.02.03-12.48.00:812][875]LogTemp: Display: BP_PushingPlatform_C_3 Platform over shoot by : 0.284424
+[2024.02.03-12.48.00:812][875]LogTemp: Display: BP_PushingPlatform_C_6 Platform over shoot by : 0.416016
+[2024.02.03-12.48.01:312][905]LogTemp: Display: BP_PushingPlatform_C_5 Platform over shoot by : 0.332031
+[2024.02.03-12.48.01:562][920]LogTemp: Display: BP_PushingPlatform_C_3 Platform over shoot by : 0.692383
+[2024.02.03-12.48.02:113][953]LogTemp: Display: BP_PushingPlatform_C_5 Platform over shoot by : 0.473022
+[2024.02.03-12.48.02:312][965]LogTemp: Display: BP_PushingPlatform_C_3 Platform over shoot by : 0.024048
+[2024.02.03-12.48.02:312][965]LogTemp: Display: BP_PushingPlatform_C_6 Platform over shoot by : 0.716309
+[2024.02.03-12.48.02:913][  1]LogTemp: Display: BP_PushingPlatform_C_5 Platform over shoot by : 0.083740
+[2024.02.03-12.48.03:062][ 10]LogTemp: Display: BP_PushingPlatform_C_3 Platform over shoot by : 0.123169
+[2024.02.03-12.48.03:312][ 25]LogTemp: Display: BP_MovingPlatform_C_2 Platform over shoot by : 0.090515
+[2024.02.03-12.48.03:313][ 25]LogTemp: Display: BP_MovingPlatform_C_0 Platform over shoot by : 0.090515
+[2024.02.03-12.48.03:712][ 49]LogTemp: Display: BP_PushingPlatform_C_5 Platform over shoot by : 0.114258
+[2024.02.03-12.48.03:812][ 55]LogTemp: Display: BP_PushingPlatform_C_3 Platform over shoot by : 0.443237
+[2024.02.03-12.48.03:812][ 55]LogTemp: Display: BP_PushingPlatform_C_6 Platform over shoot by : 0.566406
+[2024.02.03-12.48.04:513][ 97]LogTemp: Display: BP_PushingPlatform_C_5 Platform over shoot by : 0.498413
+[2024.02.03-12.48.04:563][100]LogTemp: Display: BP_PushingPlatform_C_3 Platform over shoot by : 0.125366
+[2024.02.03-12.48.05:313][145]LogTemp: Display: BP_PushingPlatform_C_3 Platform over shoot by : 0.231445
+[2024.02.03-12.48.05:314][145]LogTemp: Display: BP_PushingPlatform_C_5 Platform over shoot by : 0.231567
+[2024.02.03-12.48.05:314][145]LogTemp: Display: BP_PushingPlatform_C_6 Platform over shoot by : 0.356689
+[2024.02.03-12.48.05:813][175]LogTemp: Display: BP_MovingPlatform_C_2 Platform over shoot by : 0.114777
+[2024.02.03-12.48.05:813][175]LogTemp: Display: BP_MovingPlatform_C_0 Platform over shoot by : 0.114777
+[2024.02.03-12.48.06:063][190]LogTemp: Display: BP_PushingPlatform_C_3 Platform over shoot by : 0.471802
+[2024.02.03-12.48.06:112][193]LogTemp: Display: BP_PushingPlatform_C_5 Platform over shoot by : 0.475586
+[2024.02.03-12.48.06:813][235]LogTemp: Display: BP_PushingPlatform_C_3 Platform over shoot by : 0.020752
+[2024.02.03-12.48.06:813][235]LogTemp: Display: BP_PushingPlatform_C_6 Platform over shoot by : 0.492676
+[2024.02.03-12.48.06:913][241]LogTemp: Display: BP_PushingPlatform_C_5 Platform over shoot by : 0.017578
+[2024.02.03-12.48.07:564][280]LogTemp: Display: BP_PushingPlatform_C_3 Platform over shoot by : 0.089844
+[2024.02.03-12.48.07:713][289]LogTemp: Display: BP_PushingPlatform_C_5 Platform over shoot by : 0.090820
+[2024.02.03-12.48.08:313][325]LogTemp: Display: BP_MovingPlatform_C_2 Platform over shoot by : 0.034363
+[2024.02.03-12.48.08:313][325]LogTemp: Display: BP_MovingPlatform_C_0 Platform over shoot by : 0.034363
+[2024.02.03-12.48.08:313][325]LogTemp: Display: BP_PushingPlatform_C_3 Platform over shoot by : 0.174561
+[2024.02.03-12.48.08:313][325]LogTemp: Display: BP_PushingPlatform_C_6 Platform over shoot by : 0.264404
+[2024.02.03-12.48.08:513][337]LogTemp: Display: BP_PushingPlatform_C_5 Platform over shoot by : 0.538208
+[2024.02.03-12.48.09:063][370]LogTemp: Display: BP_PushingPlatform_C_3 Platform over shoot by : 0.637573
+[2024.02.03-12.48.09:314][385]LogTemp: Display: BP_PushingPlatform_C_5 Platform over shoot by : 0.277954
+[2024.02.03-12.48.09:813][415]LogTemp: Display: BP_PushingPlatform_C_3 Platform over shoot by : 0.188843
+[2024.02.03-12.48.09:813][415]LogTemp: Display: BP_PushingPlatform_C_6 Platform over shoot by : 0.826416
+[2024.02.03-12.48.10:114][433]LogTemp: Display: BP_PushingPlatform_C_5 Platform over shoot by : 0.319580
+[2024.02.03-12.48.10:564][460]LogTemp: Display: BP_PushingPlatform_C_3 Platform over shoot by : 0.261230
+[2024.02.03-12.48.10:815][475]LogTemp: Display: BP_MovingPlatform_C_2 Platform over shoot by : 0.115997
+[2024.02.03-12.48.10:815][475]LogTemp: Display: BP_MovingPlatform_C_0 Platform over shoot by : 0.115997
+[2024.02.03-12.48.10:914][481]LogTemp: Display: BP_PushingPlatform_C_5 Platform over shoot by : 0.198242
+[2024.02.03-12.48.11:315][505]LogTemp: Display: BP_PushingPlatform_C_3 Platform over shoot by : 0.301025
+[2024.02.03-12.48.11:315][505]LogTemp: Display: BP_PushingPlatform_C_6 Platform over shoot by : 0.562256
+[2024.02.03-12.48.11:714][529]LogTemp: Display: BP_PushingPlatform_C_5 Platform over shoot by : 0.329590
+[2024.02.03-12.48.12:064][550]LogTemp: Display: BP_PushingPlatform_C_3 Platform over shoot by : 0.245239
+[2024.02.03-12.48.12:514][577]LogTemp: Display: BP_PushingPlatform_C_5 Platform over shoot by : 0.330566
+[2024.02.03-12.48.12:815][595]LogTemp: Display: BP_PushingPlatform_C_3 Platform over shoot by : 0.280762
+[2024.02.03-12.48.12:815][595]LogTemp: Display: BP_PushingPlatform_C_6 Platform over shoot by : 0.525879
+[2024.02.03-12.48.13:315][625]LogTemp: Display: BP_MovingPlatform_C_2 Platform over shoot by : 0.090942
+[2024.02.03-12.48.13:316][625]LogTemp: Display: BP_MovingPlatform_C_0 Platform over shoot by : 0.090942
+[2024.02.03-12.48.13:316][625]LogTemp: Display: BP_PushingPlatform_C_5 Platform over shoot by : 0.248169
+[2024.02.03-12.48.13:564][640]LogTemp: Display: BP_PushingPlatform_C_3 Platform over shoot by : 0.312988
+[2024.02.03-12.48.14:116][673]LogTemp: Display: BP_PushingPlatform_C_5 Platform over shoot by : 0.250000
+[2024.02.03-12.48.14:314][685]LogTemp: Display: BP_PushingPlatform_C_3 Platform over shoot by : 0.166260
+[2024.02.03-12.48.14:314][685]LogTemp: Display: BP_PushingPlatform_C_6 Platform over shoot by : 0.479248
+[2024.02.03-12.48.14:916][721]LogTemp: Display: BP_PushingPlatform_C_5 Platform over shoot by : 0.677979
+[2024.02.03-12.48.15:067][730]LogTemp: Display: BP_PushingPlatform_C_3 Platform over shoot by : 0.663818
+[2024.02.03-12.48.15:715][769]LogTemp: Display: BP_PushingPlatform_C_5 Platform over shoot by : 0.081177
+[2024.02.03-12.48.15:815][775]LogTemp: Display: BP_MovingPlatform_C_2 Platform over shoot by : 0.101013
+[2024.02.03-12.48.15:815][775]LogTemp: Display: BP_MovingPlatform_C_0 Platform over shoot by : 0.101013
+[2024.02.03-12.48.15:815][775]LogTemp: Display: BP_PushingPlatform_C_3 Platform over shoot by : 0.021851
+[2024.02.03-12.48.15:815][775]LogTemp: Display: BP_PushingPlatform_C_6 Platform over shoot by : 0.685547
+[2024.02.03-12.48.16:514][817]LogTemp: Display: BP_PushingPlatform_C_5 Platform over shoot by : 0.055664
+[2024.02.03-12.48.16:565][820]LogTemp: Display: BP_PushingPlatform_C_3 Platform over shoot by : 0.055664
+[2024.02.03-12.48.17:316][865]LogTemp: Display: BP_PushingPlatform_C_3 Platform over shoot by : 0.384644
+[2024.02.03-12.48.17:316][865]LogTemp: Display: BP_PushingPlatform_C_5 Platform over shoot by : 0.385376
+[2024.02.03-12.48.17:316][865]LogTemp: Display: BP_PushingPlatform_C_6 Platform over shoot by : 0.440186
+[2024.02.03-12.48.18:065][910]LogTemp: Display: BP_PushingPlatform_C_3 Platform over shoot by : 0.189941
+[2024.02.03-12.48.18:116][913]LogTemp: Display: BP_PushingPlatform_C_5 Platform over shoot by : 0.190430
+[2024.02.03-12.48.18:315][925]LogTemp: Display: BP_MovingPlatform_C_2 Platform over shoot by : 0.076111
+[2024.02.03-12.48.18:316][925]LogTemp: Display: BP_MovingPlatform_C_0 Platform over shoot by : 0.076111
+[2024.02.03-12.48.18:815][955]LogTemp: Display: BP_PushingPlatform_C_3 Platform over shoot by : 0.328247
+[2024.02.03-12.48.18:815][955]LogTemp: Display: BP_PushingPlatform_C_6 Platform over shoot by : 0.518311
+[2024.02.03-12.48.18:917][961]LogTemp: Display: BP_PushingPlatform_C_5 Platform over shoot by : 0.328247
+[2024.02.03-12.48.19:566][  0]LogTemp: Display: BP_PushingPlatform_C_3 Platform over shoot by : 0.156982
+[2024.02.03-12.48.19:716][  9]LogTemp: Display: BP_PushingPlatform_C_5 Platform over shoot by : 0.301636
+[2024.02.03-12.48.20:317][ 45]LogTemp: Display: BP_PushingPlatform_C_3 Platform over shoot by : 0.348145
+[2024.02.03-12.48.20:317][ 45]LogTemp: Display: BP_PushingPlatform_C_6 Platform over shoot by : 0.505127
+[2024.02.03-12.48.20:516][ 57]LogTemp: Display: BP_PushingPlatform_C_5 Platform over shoot by : 0.294189
+[2024.02.03-12.48.20:815][ 75]LogTemp: Display: BP_MovingPlatform_C_2 Platform over shoot by : 0.086487
+[2024.02.03-12.48.20:815][ 75]LogTemp: Display: BP_MovingPlatform_C_0 Platform over shoot by : 0.086487
+[2024.02.03-12.48.21:066][ 90]LogTemp: Display: BP_PushingPlatform_C_3 Platform over shoot by : 0.235596
+[2024.02.03-12.48.21:316][105]LogTemp: Display: BP_PushingPlatform_C_5 Platform over shoot by : 0.389771
+[2024.02.03-12.48.21:816][135]LogTemp: Display: BP_PushingPlatform_C_3 Platform over shoot by : 0.847656
+[2024.02.03-12.48.21:816][135]LogTemp: Display: BP_PushingPlatform_C_6 Platform over shoot by : 1.083252
+[2024.02.03-12.48.22:117][153]LogTemp: Display: BP_PushingPlatform_C_5 Platform over shoot by : 0.618408
+[2024.02.03-12.48.22:566][180]LogTemp: Display: BP_PushingPlatform_C_3 Platform over shoot by : 0.042603
+[2024.02.03-12.48.22:916][201]LogTemp: Display: BP_PushingPlatform_C_5 Platform over shoot by : 0.062622
+[2024.02.03-12.48.23:316][225]LogTemp: Display: BP_MovingPlatform_C_2 Platform over shoot by : 0.105896
+[2024.02.03-12.48.23:316][225]LogTemp: Display: BP_MovingPlatform_C_0 Platform over shoot by : 0.105896
+[2024.02.03-12.48.23:316][225]LogTemp: Display: BP_PushingPlatform_C_3 Platform over shoot by : 0.095581
+[2024.02.03-12.48.23:316][225]LogTemp: Display: BP_PushingPlatform_C_6 Platform over shoot by : 0.138184
+[2024.02.03-12.48.23:716][249]LogTemp: Display: BP_PushingPlatform_C_5 Platform over shoot by : 0.118408
+[2024.02.03-12.48.24:066][270]LogTemp: Display: BP_PushingPlatform_C_3 Platform over shoot by : 0.064575
+[2024.02.03-12.48.24:516][297]LogTemp: Display: BP_PushingPlatform_C_5 Platform over shoot by : 0.217041
+[2024.02.03-12.48.24:817][315]LogTemp: Display: BP_PushingPlatform_C_3 Platform over shoot by : 0.247559
+[2024.02.03-12.48.24:817][315]LogTemp: Display: BP_PushingPlatform_C_6 Platform over shoot by : 0.312256
+[2024.02.03-12.48.25:316][345]LogTemp: Display: BP_PushingPlatform_C_5 Platform over shoot by : 0.227783
+[2024.02.03-12.48.25:566][360]LogTemp: Display: BP_PushingPlatform_C_3 Platform over shoot by : 0.339233
+[2024.02.03-12.48.25:817][375]LogTemp: Display: BP_MovingPlatform_C_2 Platform over shoot by : 0.066223
+[2024.02.03-12.48.25:817][375]LogTemp: Display: BP_MovingPlatform_C_0 Platform over shoot by : 0.066223
+[2024.02.03-12.48.26:117][393]LogTemp: Display: BP_PushingPlatform_C_5 Platform over shoot by : 0.362183
+[2024.02.03-12.48.26:317][405]LogTemp: Display: BP_PushingPlatform_C_3 Platform over shoot by : 0.329224
+[2024.02.03-12.48.26:317][405]LogTemp: Display: BP_PushingPlatform_C_6 Platform over shoot by : 0.668457
+[2024.02.03-12.48.26:917][441]LogTemp: Display: BP_PushingPlatform_C_5 Platform over shoot by : 0.451416
+[2024.02.03-12.48.27:067][450]LogTemp: Display: BP_PushingPlatform_C_3 Platform over shoot by : 0.337646
+[2024.02.03-12.48.27:717][489]LogTemp: Display: BP_PushingPlatform_C_5 Platform over shoot by : 0.077759
+[2024.02.03-12.48.27:817][495]LogTemp: Display: BP_PushingPlatform_C_3 Platform over shoot by : 0.077393
+[2024.02.03-12.48.27:817][495]LogTemp: Display: BP_PushingPlatform_C_6 Platform over shoot by : 0.415039
+[2024.02.03-12.48.28:331][524]LogTemp: Display: BP_MovingPlatform_C_2 Platform over shoot by : 2.942291
+[2024.02.03-12.48.28:331][524]LogTemp: Display: BP_MovingPlatform_C_0 Platform over shoot by : 2.942291
+[2024.02.03-12.48.28:531][536]LogTemp: Display: BP_PushingPlatform_C_5 Platform over shoot by : 28.753052
+[2024.02.03-12.48.28:581][539]LogTemp: Display: BP_PushingPlatform_C_3 Platform over shoot by : 28.752808
+[2024.02.03-12.48.28:883][557]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.03-12.48.28:883][557]LogWorld: BeginTearingDown for /Game/UEDPIE_0_main
+[2024.02.03-12.48.28:883][557]LogWorld: UWorld::CleanupWorld for main, bSessionEnded=true, bCleanupResources=true
+[2024.02.03-12.48.28:884][557]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.03-12.48.28:887][557]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.03-12.48.28:891][557]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.03-12.48.28:900][557]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.03-12.48.28:902][557]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 43
+[2024.02.03-12.48.28:902][557]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=43
+[2024.02.03-12.48.28:904][557]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=43
+[2024.02.03-12.48.28:911][557]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2024.02.03-12.48.28:986][559]LogPlayLevel: Display: Destroying online subsystem :Context_59
+[2024.02.03-12.48.36:612][992]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
