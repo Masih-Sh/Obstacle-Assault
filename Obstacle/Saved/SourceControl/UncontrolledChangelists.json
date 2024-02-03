@@ -8,7 +8,9 @@
 				"C:/UnrealEngine/Obstacle-Assault/Obstacle/Content/main.umap",
 				"C:/UnrealEngine/Obstacle-Assault/Obstacle/Content/BP_ThirdPersonCharacter.uasset",
 				"C:/UnrealEngine/Obstacle-Assault/Obstacle/Content/SCK_Casual01/Blueprints/ThirdPersonCharacter.uasset",
-				"C:/UnrealEngine/Obstacle-Assault/Obstacle/Content/BP_MovingPlatform.uasset"
+				"C:/UnrealEngine/Obstacle-Assault/Obstacle/Content/BP_MovingPlatform.uasset",
+				"C:/UnrealEngine/Obstacle-Assault/Obstacle/Content/BP_PushingPlatform.uasset",
+				"C:/UnrealEngine/Obstacle-Assault/Obstacle/Content/PB_ObstacleAssaultGameMode.uasset"
 			]
 		}
 	]
