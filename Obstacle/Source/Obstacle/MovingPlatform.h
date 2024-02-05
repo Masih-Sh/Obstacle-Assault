@@ -25,11 +25,14 @@ public:
 
 private:
 
-	UPROPERTY(EditAnywhere, Category = "Moving Platform")
+	UPROPERTY(EditAnywhere, Category = "Moving")
 	float MoveDistance{500};
 
-	UPROPERTY(EditAnywhere, Category = "Moving Platform")
+	UPROPERTY(EditAnywhere, Category = "Moving")
 	FVector PlatformVelocity{ 0,0,200 };
+
+	UPROPERTY(EditAnywhere, Category = "Rotating")
+	FRotator RotationVelocity{};
 
 	FVector StartLocation{};
 
